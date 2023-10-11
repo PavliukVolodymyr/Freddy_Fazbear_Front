@@ -1,0 +1,617 @@
+.frame-3,
+.frame-3 * {
+  box-sizing: border-box;
+}
+.frame-3 {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+.group-34 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.frame-1 {
+  width: 96px;
+  height: 906px;
+  position: absolute;
+  left: 62px;
+  top: 98px;
+}
+.rectangle-32 {
+  background: linear-gradient(
+    180.62deg,
+    rgba(243, 243, 243, 0.5) 0%,
+    rgba(243, 243, 243, 0.5) 100%
+  );
+  width: 96px;
+  height: 906px;
+  position: absolute;
+  left: calc(50% - 48px);
+  top: calc(50% - 453px);
+}
+.user-interface-shopping-cart {
+  position: absolute;
+  left: calc(50% - 15px);
+  top: calc(50% - 68px);
+  overflow: visible;
+}
+.vector {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 233px);
+  overflow: visible;
+}
+.vector2 {
+  position: absolute;
+  left: calc(50% - 15px);
+  top: calc(50% - 124px);
+  overflow: visible;
+}
+.vector3 {
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 180px);
+  overflow: visible;
+}
+.user-interface-bell {
+  position: absolute;
+  left: calc(50% - 14px);
+  top: calc(50% - -53px);
+  overflow: visible;
+}
+.user-interface-user {
+  position: absolute;
+  left: calc(50% - 14px);
+  top: calc(50% - 8px);
+  overflow: visible;
+}
+.rectangle-42 {
+  background: #ff5c28;
+  width: 5px;
+  height: 44px;
+  position: absolute;
+  right: 0px;
+  top: 324px;
+}
+.frame-6 {
+  width: 900px;
+  height: 74px;
+  position: absolute;
+  left: 310px;
+  top: 107px;
+}
+.rectangle-5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.vector4 {
+  position: absolute;
+  left: 37px;
+  top: 27px;
+  overflow: visible;
+}
+.what-would-you-like-to-eat {
+  color: #797575;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: absolute;
+  left: 78px;
+  top: 22px;
+}
+.bars-icon {
+  position: absolute;
+  left: 854px;
+  top: 30px;
+  overflow: visible;
+}
+.frame-2 {
+  width: 899px;
+  height: 245px;
+  position: absolute;
+  left: 309px;
+  top: 221px;
+}
+.rectangle-7 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 20px;
+  width: 899px;
+  height: 245px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform-origin: 0 0;
+
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-9 {
+  border-radius: 0px;
+  position: absolute;
+  left: 40px;
+  top: 0px;
+  overflow: visible;
+}
+.rectangle-8 {
+  border-radius: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.group-1 {
+  width: 40px;
+  height: 10px;
+  position: static;
+}
+.ellipse-1 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 371px;
+  top: 225px;
+}
+.ellipse-2 {
+  background: #d4d0d0;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 386px;
+  top: 225px;
+}
+.ellipse-3 {
+  background: #d4d0d0;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 401px;
+  top: 225px;
+}
+.group-35 {
+  position: absolute;
+  inset: 0;
+}
+.kolomyia {
+  color: #ffffff;
+  text-align: left;
+  font: 700 36px "DM Sans", sans-serif;
+  position: absolute;
+  left: 82px;
+  top: 140px;
+}
+.delivery {
+  color: #000000;
+  text-align: left;
+  font: 700 40px "DM Sans", sans-serif;
+  position: absolute;
+  left: 82px;
+  top: 88px;
+}
+.frame-4 {
+  width: 899px;
+  height: 72px;
+  position: absolute;
+  left: 308px;
+  top: 583px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.rectangle-10 {
+  background: #d9d9d9;
+  width: 848px;
+  height: 4px;
+  position: absolute;
+  left: calc(50% - 420.5px);
+  top: calc(50% - 32px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.meat-1 {
+  width: 29px;
+  height: 27px;
+  position: absolute;
+  left: calc(50% - 219.5px);
+  top: calc(50% - -10px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.meat-12 {
+  position: absolute;
+  left: 2.72px;
+  top: 2.53px;
+  overflow: visible;
+}
+.user-interface-shopping-cart2 {
+  position: absolute;
+  left: calc(50% - -239.5px);
+  top: calc(30% - -0px);
+  transform: translate(0px, 0px);
+  transform: scaleY(-1);
+  overflow: visible;
+}
+.cart {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: absolute;
+  left: calc(50% - -271.5px);
+  top: calc(50% - -12px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.main-dishes {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: absolute;
+  left: calc(50% - 184.5px);
+  top: calc(50% - -12px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.all-restaurants {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: absolute;
+  left: calc(50% - -29.5px);
+  top: calc(50% - -12px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.top-rated {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: absolute;
+  left: calc(50% - 389.5px);
+  top: calc(50% - -12px);
+  width: 121px;
+  height: 30px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.all {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: absolute;
+  left: calc(50% - -400.5px);
+  top: calc(50% - -12px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.concierge-bell {
+  position: absolute;
+  left: calc(50% - 3.5px);
+  top: calc(30% - 0px);
+  transform: translate(0px, 0px);
+  transform: scaleY(-1);
+  overflow: visible;
+}
+.rectangle-11 {
+  background: #ff5c28;
+  width: 142px;
+  height: 7px;
+  position: absolute;
+  left: calc(50% - 420.5px);
+  top: calc(50% - 29px);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, -1);
+}
+.star-icon {
+  position: absolute;
+  left: calc(50% - 413.5px);
+  top: calc(30% - 0px);
+  overflow: visible;
+}
+.vector7 {
+  position: absolute;
+  left: calc(50% - -367.5px);
+  top: calc(30% - 0px);
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.frame-5 {
+  width: 842px;
+  height: 383px;
+  position: absolute;
+  left: 308px;
+  top: 621px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rectangle-14 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 20px;
+  width: 237px;
+  height: 140px;
+  position: absolute;
+  left: 302px;
+  top: 0px;
+}
+.rectangle-15 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 20px;
+  width: 237px;
+  height: 140px;
+  position: absolute;
+  left: 602px;
+  top: 0px;
+}
+.rectangle-13 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 20px;
+  width: 237px;
+  height: 140px;
+  position: absolute;
+  left: 1px;
+  top: 243px;
+}
+.rectangle-16 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 20px;
+  width: 237px;
+  height: 140px;
+  position: absolute;
+  left: 302px;
+  top: 243px;
+}
+.rectangle-17 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 20px;
+  width: 237px;
+  height: 140px;
+  position: absolute;
+  left: 605px;
+  top: 243px;
+}
+.fast-food {
+  color: #797575;
+  text-align: left;
+  font: 500 20px "DM Sans", sans-serif;
+  position: absolute;
+  left: 602px;
+  top: 192px;
+}
+
+
+._392 {
+  color: #000000;
+  text-align: left;
+  font: 700 24px "DM Sans", sans-serif;
+  position: absolute;
+  left: 493px;
+  top: 157px;
+}
+.noodle-s {
+  color: #000000;
+  text-align: left;
+  font: 500 24px "DM Sans", sans-serif;
+  position: absolute;
+  left: 304px;
+  top: 155px;
+}
+.panera-soup2 {
+  color: #000000;
+  text-align: left;
+  font: 500 24px "DM Sans", sans-serif;
+  position: absolute;
+  left: 602px;
+  top: 155px;
+}
+
+.fast-food3 {
+  color: #797575;
+  text-align: left;
+  font: 500 20px "DM Sans", sans-serif;
+  position: absolute;
+  left: 300px;
+  top: 192px;
+}
+.group-5 {
+  position: absolute;
+  left: 183px;
+  top: 8px;
+  overflow: visible;
+}
+.group-6 {
+  position: absolute;
+  left: 479px;
+  top: 8px;
+  overflow: visible;
+}
+.group-7 {
+  position: absolute;
+  left: 787px;
+  top: 8px;
+  overflow: visible;
+}
+.group-8 {
+  position: absolute;
+  left: 786px;
+  top: 255px;
+  overflow: visible;
+}
+.group-9 {
+  position: absolute;
+  left: 485px;
+  top: 255px;
+  overflow: visible;
+}
+.group-10 {
+  position: absolute;
+  left: 183px;
+  top: 255px;
+  overflow: visible;
+}
+._393 {
+  color: #000000;
+  text-align: left;
+  font: 700 24px "DM Sans", sans-serif;
+  position: absolute;
+  left: 787px;
+  top: 155px;
+}
+.delivery2 {
+  color: #000000;
+  text-align: left;
+  font: 700 40px "DM Sans", sans-serif;
+  position: absolute;
+  left: 62px;
+  top: 34px;
+}
+.kolomyia2 {
+  color: #ffffff;
+  text-align: left;
+  font: 700 36px "DM Sans", sans-serif;
+  position: absolute;
+  left: 239px;
+  top: 39px;
+}
+.group-41 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-18 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 30px;
+  width: 300px;
+  height: 79px;
+  position: absolute;
+  left: calc(50% - -615px);
+  top: calc(50% - 437px);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.login-registration {
+  color: #000000;
+  text-align: left;
+  font: 500 32px "DM Sans", sans-serif;
+  position: absolute;
+  left: 1587px;
+  top: 121px;
+}
+.group-45 {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-6 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 1481px;
+  top: 505px;
+}
+.ellipse-7 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 1502px;
+  top: 484px;
+}
+.ellipse-8 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 1523px;
+  top: 463px;
+}
+.ellipse-5 {
+  border-radius: 50%;
+  width: 236px;
+  height: 236px;
+  position: absolute;
+  left: 1279px;
+  top: 512px;
+}
+.group-46 {
+  left: 1518px;
+  top: 362px;
+  width: 265px;
+}
+.rectangle-182 {
+  background: #ffffff;
+  border-radius: 30px;
+  width: 357px;
+  height: 146px;
+  position: absolute;
+  left: calc(50% - -512px);
+  top: calc(50% - 231px);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.message{
+  color: #000000;
+  text-align: center;
+  font: 700 32px "Caveat", sans-serif;
+  padding-top: 15%;
+}
+
+.TopRatedItem{
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.topRatedImg{
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+
+}
+.TypeOfDishes{
+  color: #797575;
+  text-align: left;
+  position:relative;
+  font: 500 20px "DM Sans", sans-serif;
+  margin-top: 2%;
+
+}
+.NameOfDishes{
+  color: #000000;
+  text-align: left;
+  font: 500 24px "DM Sans", sans-serif;
+
+}
+.Price{
+  color: #000000;
+  text-align: right;
+  font: 700 24px "DM Sans", sans-serif;
+  position:relative;
+  margin-top: -20%;
+}
+.Rated{
+text-align: right;
+font: 700 16px "DM Sans", sans-serif;
+}
+
+.checked {
+  color: #ff5c28;
+  border: #000000;
+  border-radius: 1px;
+}
