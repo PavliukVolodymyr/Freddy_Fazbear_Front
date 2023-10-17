@@ -98,10 +98,14 @@
 .what-would-you-like-to-eat {
   color: #797575;
   text-align: left;
-  font: 400 24px "DM Sans", sans-serif;
+  font: 400 40px "DM Sans", sans-serif;
   position: absolute;
-  left: 78px;
-  top: 22px;
+  left: 70px;
+  top: 4.5px;
+  width: 92%;
+  height: 90%;
+  outline: none;
+  
 }
 .bars-icon {
   position: absolute;
@@ -321,16 +325,6 @@
   top: calc(30% - 0px);
   transform: translate(0px, 0px);
   overflow: visible;
-}
-.frame-5 {
-  width: 842px;
-  height: 383px;
-  position: absolute;
-  left: 308px;
-  top: 621px;
-  display: flex;
-  justify-content:space-between;
-  
 }
 
 .rectangle-14 {
@@ -579,13 +573,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   padding-top: 15%;
 }
 
-.TopRatedItem{
-  width: calc(33.33% - 10px);
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction:column;
-  margin-left: 2%;
-}
+
 
 .topRatedImg{
   background: linear-gradient(to left, #d9d9d9, #d9d9d9);
@@ -599,7 +587,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-align: center ;
   position:relative;
   font: 500 20px "DM Sans", sans-serif;
-  top: -8%;
+  top: -9%;
 
 
 }
@@ -620,13 +608,12 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 text-align: right;
 font: 700 18px "DM Sans", sans-serif;
 position: relative;
-top: -8%;
+top: -10.5%;
 }
 
 .checked {
   color: #ff5c28;
-  border: #000000;
-  border-radius: solid;
+  
 }
 
 
@@ -650,4 +637,31 @@ margin-right: 376px;
 margin-left: 1523px;
 
 }
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.TopRatedItem
+  {
+  width: 90%; /* Ширина кожного елемента */
+  text-align: center;
+}
+
+
+
+.frame-5 {
+  width: 842px;
+  height: 383px;
+  position: absolute;
+  left: 308px;
+  top: 621px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки, рівномірно розподілені */
+  gap: 5px; /* Відступи між елементами */
+  overflow: auto;
+  
+}
+
 
