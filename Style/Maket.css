@@ -1,0 +1,444 @@
+a,button,input,select,h1,h2,h3,h4,h5,* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    appearance: none;
+    background: none;
+  }
+.user-interface {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 62px;
+  top: 98px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#background{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+.rectangle-5 {
+  background: linear-gradient(
+    180.62deg,
+    rgba(243, 243, 243, 0.5) 0%,
+    rgba(243, 243, 243, 0.5) 100%
+  );
+  flex-shrink: 0;
+  width: 96px;
+  height: 906px;
+  position: relative;
+}
+.search {
+  flex-shrink: 0;
+  position: absolute;
+  left: calc(50% - 12px);
+  top: calc(50% - 180px);
+  overflow: visible;
+}
+.frame-79 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 33px;
+  top: 385px;
+}
+.user-interface-shopping-cart {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.home {
+  flex-shrink: 0;
+  position: absolute;
+  left: calc(50% - 15px);
+  top: calc(50% - 124px);
+  overflow: visible;
+}
+.frame-80 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 34px;
+  top: 506px;
+}
+.user-interface-bell {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-81 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 34px;
+  top: 445px;
+}
+.user-interface-user {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.rectangle-4 {
+  background: #ff5c28;
+  flex-shrink: 0;
+  width: 5px;
+  height: 44px;
+  position: absolute;
+  right: 0px;
+  top: 322px;
+}
+.search2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 310px;
+  top: 107px;
+}
+.rectangle-6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.vector {
+  flex-shrink: 0;
+  position: absolute;
+  left: 29px;
+  top: 22px;
+  overflow: visible;
+}
+.what-would-you-like-to-eat {
+    color: #797575;
+    text-align: left;
+    font: 400 40px "DM Sans", sans-serif;
+    position: absolute;
+    left: 70px;
+    top: 4.5px;
+    width: 92%;
+    height: 90%;
+    outline: none;
+  
+  }
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: absolute;
+  left: 62px;
+  top: 34px;
+}
+.delivery {
+  color: #000000;
+  text-align: left;
+  font: 700 40px "DM Sans", sans-serif;
+  position: relative;
+}
+.kolomyia {
+  color: #ffffff;
+  text-align: left;
+  font: 700 36px "DM Sans", sans-serif;
+  position: relative;
+}
+.navigation {
+  padding: 7px 14px 7px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 886px;
+  position: absolute;
+  left: 310px;
+  top: 200px;
+
+
+}
+.top-rated {
+  padding: 7px 11px 7px 11px;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.top-rated-icon {
+  flex-shrink: 0;
+  position: relative;
+
+  overflow: visible;
+}
+.top-rated2 {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: relative;
+  width: 121px;
+  height: 30px;
+  transform-origin: 0 0;
+
+}
+.main-dishes {
+  padding: 7px 13px 7px 13px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.main-dishes-icon {
+  flex-shrink: 0;
+  width: 29px;
+  height: 27px;
+  position: relative;
+  transform-origin: 0 0;
+
+}
+.meat-1 {
+  position: absolute;
+  left: -3.28px;
+  top: 2.53px;
+  overflow: visible;
+}
+.main-dishes2 {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+
+}
+.all-restaurants {
+  padding: 7px 16px 7px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.all-restaurants-icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.all-restaurants2 {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+
+}
+.cart {
+  padding: 7px 15px 7px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.cart-icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cart2 {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+
+}
+.all {
+  padding: 7px 8px 7px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.all-icon {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.all2 {
+  color: #000000;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+ 
+}
+.frame-83 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 13px;
+  top: -10px;
+}
+.rectangle-10 {
+  background: #d9d9d9;
+  width: 848px;
+  height: 4px;
+  position: absolute;
+  top: 60px;
+}
+.frame-84 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 430px;
+  top: -10px;
+}
+.rectangle-11 {
+  background: #ff5c28;
+  flex-shrink: 0;
+  width: 193px;
+  height: 7px;
+  position: absolute;
+  transform-origin: 0 0;
+  left: -15px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1727px;
+  top: 33px;
+}
+.rectangle-20 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 30px;
+  flex-shrink: 0;
+  width: 137px;
+  height: 55px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.user-interface-user2 {
+  flex-shrink: 0;
+  position: absolute;
+  left: calc(50% - 14.5px);
+  top: calc(50% - 15.5px);
+  overflow: visible;
+}
+.message {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-6 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 1462px;
+  top: 567px;
+}
+.ellipse-7 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 1483px;
+  top: 546px;
+}
+.ellipse-8 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  left: 1504px;
+  top: 525px;
+}
+.ellipse-5 {
+  border-radius: 50%;
+  width: 236px;
+  height: 236px;
+  position: absolute;
+  left: 1260px;
+  top: 574px;
+}
+.frame-82 {
+  padding: 10px;
+  width: 274px;
+  height: 126px;
+  position: absolute;
+  left: 1443px;
+  top: 398px;
+}
+.frame-46 {
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 33px 46px 33px 46px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.message{
+  color: #000000;
+  text-align: center;
+  font: 700 32px "Caveat", sans-serif;
+  position: relative;
+}

@@ -1,0 +1,205 @@
+a,button,input,select,h1,h2,h3,h4,h5,* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    appearance: none;
+    background: none;
+  }
+#background{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+}
+
+.header {
+  position: absolute;
+  inset: 0;
+}
+.delivery {
+  color: #000000;
+  text-align: left;
+  font: 700 40px "DM Sans", sans-serif;
+  position: absolute;
+  left: 62px;
+  top: 34px;
+}
+.kolomyia {
+  color: #ffffff;
+  text-align: left;
+  font: 700 36px "DM Sans", sans-serif;
+  position: absolute;
+  left: 239px;
+  top: 39px;
+}
+.authorization {
+  width: 979px;
+  height: 569px;
+  position: absolute;
+  left: 471px;
+  top: 256px;
+}
+.rectangle-18 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0) 100%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 30px;
+  width: 979px;
+  height: 569px;
+  position: absolute;
+  left: calc(50% - 489.5px);
+  top: calc(50% - 284.5px);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  z-index: -1;
+}
+.frame-22 {
+  width: 477px;
+  height: 306px;
+  position: absolute;
+  left: 251px;
+  top: 93px;
+}
+.group-60 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-19 {
+  background: #ffffff;
+  border-radius: 30px;
+  width: 477px;
+  height: 79px;
+  position: absolute;
+  left:251px;
+  top: 93px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+}
+.enter-your-login-or-email-address {
+  color: #797575;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: absolute;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 425px;
+  border-radius: 30px;
+  height: 79px;
+}
+.group-61 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-192 {
+  background: #ffffff;
+  border-radius: 30px;
+  width: 477px;
+  height: 79px;
+  position: relative;
+  left: 251px;
+  top: 205px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  z-index: 0;
+}
+.enter-your-password {
+  color: #797575;
+  text-align: left;
+  font: 400 24px "DM Sans", sans-serif;
+  position: absolute;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 425px;
+  height: 79px;
+  border-radius: 30px;
+
+}
+.group-38 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-20 {
+  background: #ffffff;
+  border-radius: 30px;
+  width: 220px;
+  height: 52px;
+  position: absolute;
+  left: 379px;
+  top: 347px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.continue {
+  color: #000000;
+  text-align: center;
+  font: 700 32px "DM Sans", sans-serif;
+  position: absolute;
+  padding-left: 39px;
+  padding-top: 5px;
+}
+.forgot-your-password {
+  color: #797575;
+  text-align: left;
+  font: 400 16px "DM Sans", sans-serif;
+  position: absolute;
+  left: 560px;
+  top: 293px;
+  width: 180px;
+}
+.frame-23 {
+  width: 478px;
+  height: 58px;
+  position: absolute;
+  left: 249px;
+  top: 437px;
+}
+.group-62 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-202 {
+  background: #ffffff;
+  border-radius: 30px;
+  width: 225px;
+  height: 24px;
+  position: absolute;
+  left: 379px;
+  top: 471px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.create-a-new-account {
+  color: #000000;
+  font: 700 16px "DM Sans", sans-serif;
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 27px;
+  top: 2px;
+}
+.rectangle-22 {
+  background: rgba(121, 117, 117, 0.29);
+  width: 167px;
+  height: 4px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+.rectangle-23 {
+  background: rgba(121, 117, 117, 0.29);
+  width: 167px;
+  height: 4px;
+  position: absolute;
+  left: 311px;
+  top: 10px;
+}
+.new-to-this-site {
+  color: #797575;
+  text-align: left;
+  font: 400 16px "DM Sans", sans-serif;
+  position: absolute;
+  left: 179px;
+  top: 0px;
+}

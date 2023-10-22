@@ -1,0 +1,58 @@
+
+
+.listRestourants {
+    width: 842px;
+    height: 640px;
+    position: absolute;
+    left: 335px;
+    top: 270px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    overflow: auto;
+}
+.img{
+    width: 1280px;
+    height: auto;
+}
+.listItem {
+    width: 90%;
+    text-align: center;
+}
+
+
+.MainRestourantsImg {
+    background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+    border-radius: 20px;
+    width: 100%;
+    height:auto;
+    margin-top: 10px;
+}
+  .NameRestourants {
+    color: #000000;
+    text-align: left;
+    font: 500 24px "DM Sans", sans-serif;
+    position: relative;
+  }
+  .RatingIcon {
+    flex-shrink: 0;
+    position:absolute;
+    overflow: visible;
+    margin-top: -25px;
+    margin-left: 45px;
+ 
+  }
+  .Rating {
+    color: #000000;
+    text-align: left;
+    font: 500 20px "DM Sans", sans-serif;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 200px;
+  }
+  .TypeRestaurants {
+    color: #797575;
+    text-align: center;
+    font: 500 20px "DM Sans", sans-serif;
+    position: relative;
+  }
