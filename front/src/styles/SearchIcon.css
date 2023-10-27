@@ -1,0 +1,24 @@
+.searchIcon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 310px;
+    top: 107px;
+  }
+
+  .Background {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+
+  .Icon {
+    flex-shrink: 0;
+    position: absolute;
+    left: 29px;
+    top: 22px;
+    overflow: visible;
+  }

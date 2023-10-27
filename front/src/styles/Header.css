@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 62px;
+    top: 34px;
+  }
+  .delivery {
+    color: #000000;
+    text-align: left;
+    font: 700 40px "DM Sans", sans-serif;
+  }
+  .kolomyia {
+    color: #ffffff;
+    text-align: left;
+    font: 700 36px "DM Sans", sans-serif;
+  }

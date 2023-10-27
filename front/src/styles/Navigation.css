@@ -1,0 +1,49 @@
+.frame-1 {
+    width: 96px;
+    height: 906px;
+    position: absolute;
+    left: 62px;
+    top: 98px;
+  }
+  .rectangle-5 {
+    background: linear-gradient(
+      180.62deg,
+      rgba(243, 243, 243, 0.5) 0%,
+      rgba(243, 243, 243, 0.5) 100%
+    );
+    width: 96px;
+    height: 906px;
+    position: absolute;
+    left: calc(50% - 48px);
+    top: calc(50% - 453px);
+  }
+  .user-interface-shopping-cart {
+    position: absolute;
+    left: calc(50% - 15px);
+    top: calc(50% - 68px);
+    overflow: visible;
+  }
+  .vector {
+    position: absolute;
+    left: calc(50% - 15px);
+    top: calc(50% - 124px);
+    overflow: visible;
+  }
+  .vector2 {
+    position: absolute;
+    left: calc(50% - 12px);
+    top: calc(50% - 180px);
+    overflow: visible;
+  }
+  .user-interface-bell {
+    position: absolute;
+    left: calc(50% - 14px);
+    top: calc(50% - -53px);
+    overflow: visible;
+  }
+  .user-interface-user {
+    position: absolute;
+    left: calc(50% - 14px);
+    top: calc(50% - 8px);
+    overflow: visible;
+  }
