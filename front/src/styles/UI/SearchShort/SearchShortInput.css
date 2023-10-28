@@ -1,14 +1,15 @@
 .what-would-you-like-to-eat {
-    color: none;
-    text-align: left;
-    font: 400 40px "DM Sans", sans-serif;
-    position: absolute;
-    left: 70px;
-    top: 14px;
-    outline: none;
-  
-  }
+  color: #797575;
+  text-align: left;
+  font: 400 40px "DM Sans", sans-serif;
+  position: absolute;
+  left: 70px;
+  top: 4.5px;
+  width: 92%;
+  height: 90%;
+  outline: none;
 
+}
   a,button,input,select,h1,h2,h3,h4,h5,* {
     margin: 0;
     padding: 0;

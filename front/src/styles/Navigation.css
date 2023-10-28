@@ -1,49 +1,186 @@
-.frame-1 {
-    width: 96px;
-    height: 906px;
+.navigation {
+    padding: 7px 14px 7px 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 886px;
     position: absolute;
-    left: 62px;
-    top: 98px;
+    left: 310px;
+    top: 200px;
   }
-  .rectangle-5 {
-    background: linear-gradient(
-      180.62deg,
-      rgba(243, 243, 243, 0.5) 0%,
-      rgba(243, 243, 243, 0.5) 100%
-    );
-    width: 96px;
-    height: 906px;
-    position: absolute;
-    left: calc(50% - 48px);
-    top: calc(50% - 453px);
+
+  .top-rated {
+    padding: 7px 11px 7px 11px;
+    display: flex;
+    flex-direction: row;
+    gap: 1px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
   }
-  .user-interface-shopping-cart {
-    position: absolute;
-    left: calc(50% - 15px);
-    top: calc(50% - 68px);
+  .top-rated-icon {
+    flex-shrink: 0;
+    position: relative;
+  
     overflow: visible;
   }
-  .vector {
+  .top-rated2 {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+    width: 121px;
+    height: 30px;
+    transform-origin: 0 0;
+  
+  }
+  .main-dishes {
+    padding: 7px 13px 7px 13px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .main-dishes-icon {
+    flex-shrink: 0;
+    width: 29px;
+    height: 27px;
+    position: relative;
+    transform-origin: 0 0;
+  
+  }
+  .meat-1 {
     position: absolute;
-    left: calc(50% - 15px);
-    top: calc(50% - 124px);
+    left: -3.28px;
+    top: 2.53px;
     overflow: visible;
   }
-  .vector2 {
-    position: absolute;
-    left: calc(50% - 12px);
-    top: calc(50% - 180px);
+
+  .main-dishes2 {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+    transform-origin: 0 0;
+  
+  }
+
+  .all-restaurants {
+    padding: 7px 16px 7px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .all-restaurants-icon {
+    flex-shrink: 0;
+    position: relative;
     overflow: visible;
   }
-  .user-interface-bell {
-    position: absolute;
-    left: calc(50% - 14px);
-    top: calc(50% - -53px);
+  .all-restaurants2 {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+    transform-origin: 0 0;
+  
+  }
+
+  .cart {
+    padding: 7px 15px 7px 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .cart-icon {
+    flex-shrink: 0;
+    position: relative;
     overflow: visible;
   }
-  .user-interface-user {
-    position: absolute;
-    left: calc(50% - 14px);
-    top: calc(50% - 8px);
+
+  .cart2 {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+    transform-origin: 0 0;
+  
+  }
+  .all {
+    padding: 7px 8px 7px 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .all-icon {
+    flex-shrink: 0;
+    position: relative;
     overflow: visible;
+  }
+  .all2 {
+    color: #000000;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+    transform-origin: 0 0;
+   
+  }
+  .frame-83 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 13px;
+    top: -10px;
+  }
+  .rectangle-10 {
+    background: #d9d9d9;
+    width: 848px;
+    height: 4px;
+    position: absolute;
+    top: 60px;
+  }
+  .frame-84 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 430px;
+    top: -10px;
+  }
+  .rectangle-11 {
+    background: #ff5c28;
+    flex-shrink: 0;
+    width: 193px;
+    height: 7px;
+    position: absolute;
+    transform-origin: 0 0;
+    left: -15px;
   }

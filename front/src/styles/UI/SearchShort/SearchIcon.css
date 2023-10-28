@@ -1,0 +1,19 @@
+.searchDiv {
+  width: 900px;
+  height: 74px;
+  position: absolute;
+  left: 310px;
+  top: 107px;
+}
+.searchBack {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+}
+.SearchIcon {
+  position: absolute;
+  left: 37px;
+  top: 27px;
+
+}

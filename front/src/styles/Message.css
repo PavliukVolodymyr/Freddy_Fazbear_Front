@@ -1,0 +1,67 @@
+.message {
+    color: #000000;
+    text-align: center;
+    font: 700 32px "Caveat", sans-serif;
+    position: relative;
+  }
+  .ellipse-6 {
+    background: #ffffff;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 1462px;
+    top: 567px;
+  }
+  .ellipse-7 {
+    background: #ffffff;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 1483px;
+    top: 546px;
+  }
+  .ellipse-8 {
+    background: #ffffff;
+    border-radius: 50%;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 1504px;
+    top: 525px;
+  }
+  .ellipse-5 {
+    border-radius: 50%;
+    width: 236px;
+    height: 236px;
+    position: absolute;
+    left: 1260px;
+    top: 574px;
+    
+  }
+  .frame-82 {
+    padding: 10px;
+    width: 274px;
+    height: 126px;
+    position: absolute;
+    left: 1443px;
+    top: 398px;
+  }
+  .frame-46 {
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 33px 46px 33px 46px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 200px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }

@@ -1,0 +1,11 @@
+.listRestourants {
+    width: 842px;
+    height: 640px;
+    position: absolute;
+    left: 335px;
+    top: 270px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    overflow: auto;
+}

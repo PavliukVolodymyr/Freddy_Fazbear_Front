@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/SearchIcon.css'
+import '../../../styles/UI/SearchLong/SearchIcon.css'
 
 const SearchIcon = ({children}) =>{
     return(
