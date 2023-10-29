@@ -4,7 +4,7 @@ import '../styles/ProfileIcon.css';
 const ProfileIcon = () =>{
     return(
         <div className="ProfileIcon">
-        <p className="rectangle-20"></p>
+        <p className="UserBackground"></p>
           <svg
             className="user-interface-user2"
             width="30"
