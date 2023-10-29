@@ -2,8 +2,9 @@ import React from "react";
 import '../styles/ListRestaurants.css';
 
 const ListRestaurant = ({children}) =>{
+
     return(
-        <div class="listRestourants">
+        <div className="listRestourants">
             {children}
         </div>
     )

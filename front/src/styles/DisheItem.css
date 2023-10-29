@@ -1,0 +1,50 @@
+.MainDishesImg {
+    background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+    border-radius: 20px;
+    width: 246px;
+    height: 144px;;
+    margin-top: 10px;
+}
+.Price {
+    color: #000000;
+    text-align: right;
+    font: 700 24px "DM Sans", sans-serif;
+    position: relative;
+    margin-right: 30px;
+  }
+  .NameDish {
+    color: #000000;
+    text-align: left;
+    font: 500 24px "DM Sans", sans-serif;
+    position: relative;
+    margin-top: -30px;
+  }
+  .restaurantName {
+    color: #797575;
+    text-align: left;
+    font: 500 20px "DM Sans", sans-serif;
+    position: absolute;
+  
+  }
+  .group-29 {
+    width: 56px;
+    height: 20px;
+   margin-left: 194px;
+   margin-top: 5px;
+    position: relative;
+  }
+  .rectangle-24 {
+    background: #ff3e00;
+    border-radius: 49px;
+    width: 56px;
+    height: 20px;
+    position: absolute;
+  
+  }
+  .add {
+    color: #ffffff;
+    text-align: center;
+    font: 700 15px "DM Sans", sans-serif;
+    position: absolute;
+    left: 12.5px;
+  }

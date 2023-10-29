@@ -1,0 +1,97 @@
+.frame-2 {
+    width: 899px;
+    height: 245px;
+    position: absolute;
+    left: 309px;
+    top: 221px;
+  }
+
+  .rectangle-7 {
+    background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+    border-radius: 20px;
+    width: 899px;
+    height: 245px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform-origin: 0 0;
+    
+  }
+
+  .group-2 {
+    position: absolute;
+    inset: 0;
+  }
+
+  .rectangle-9 {
+    border-radius: 0px;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    overflow: visible;
+  }
+
+  .rectangle-8 {
+    border-radius: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+
+  .group-1 {
+    width: 40px;
+    height: 10px;
+    position: static;
+  }
+
+  .ellipse-1 {
+    background: #ffffff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 371px;
+    top: 225px;
+  }
+  
+  .ellipse-2 {
+    background: #d4d0d0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 386px;
+    top: 225px;
+  }
+  
+  .ellipse-3 {
+    background: #d4d0d0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 401px;
+    top: 225px;
+  }
+
+  .group-35 {
+    position: absolute;
+    inset: 0;
+  }
+  .kolomyia {
+    color: #ffffff;
+    text-align: left;
+    font: 700 36px "DM Sans", sans-serif;
+    position: absolute;
+    left: 82px;
+    top: 140px;
+  }
+  .delivery {
+    color: #000000;
+    text-align: left;
+    font: 700 40px "DM Sans", sans-serif;
+    position: absolute;
+    left: 82px;
+    top: 88px;
+  }

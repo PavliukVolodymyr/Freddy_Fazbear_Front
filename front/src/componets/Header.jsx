@@ -4,8 +4,8 @@ import '../styles/Header.css'
 const Header = () =>{
     return(
        <div className="header">
-            <p className="delivery">Delivery</p>
-            <p className="kolomyia">Kolomyia</p>
+            <p className="delivery1">Delivery</p>
+            <p className="kolomyia1">Kolomyia</p>
        </div> 
     )
 }

@@ -1,13 +1,36 @@
-import React from "react";
+import React, { useState , useEffect} from "react";
 import '../styles/Navigation.css'
 import { Link } from "react-router-dom";
 
 
 const Navigation = () => {
-    return (
+  const [left1, setLeft] = useState(-15);
+  const [width1, setWidth] = useState(20);
+  useEffect(() => {
+    if(window.location.pathname === '/AllRestaurants'){
+      setLeft(-17);
+      setWidth(195);
+    }
+    else if(window.location.pathname === '/'){
+      setLeft(-430);
+      setWidth(140);
+    }
+    else if(window.location.pathname === '/MainDishes'){
+      setLeft(-240);
+      setWidth(170);
+
+    }
+    else if(window.location.pathname === '/All'){
+      setLeft(353);
+      setWidth(65);
+    }
+  }, [])  
+  
+  
+  return (
         <div className="navigation">
 
-        <Link to="/TopRated" className="top-rated">
+        <Link to="/" className="top-rated">
           <svg
             className="top-rated-icon"
             width="23"
@@ -95,7 +118,7 @@ const Navigation = () => {
     
           <div className="cart2">Cart</div>
         </div>
-        <div className="all">
+        <Link to = "/All" className="all">
           <svg
             className="all-icon"
             width="25"
@@ -112,15 +135,16 @@ const Navigation = () => {
           </svg>
     
           <div className="all2">All</div>
-        </div>
+        </Link>
         <div class="frame-83">
           <div className="rectangle-10">
               <div className="frame-84">
-          <div className="rectangle-11"></div>
+          <div className="rectangle-11" style={{left: left1 + 'px', width: width1 + 'px'}}></div>
         </div>
           </div>
+          
         </div>
-
+        
       </div>
     )
 }

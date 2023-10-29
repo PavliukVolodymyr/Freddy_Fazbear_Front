@@ -11,6 +11,7 @@ import ListRestaurant from "./componets/ListRetaurant";
 import RestaurtantItem from "./componets/RestaurantItem";
 import Navigation from "./componets/Navigation";
 
+
 function AllRestaurants() {
   return (
     <div>
