@@ -24,14 +24,7 @@ function MainDishes(){
             <Message>
                 Ммммм виглядає смачно?
             </Message>
-            <ListRestaurant>
-                <DishesItem/>    
-                <DishesItem/> 
-                <DishesItem/> 
-                <DishesItem/> 
-                <DishesItem/> 
-                <DishesItem/> 
-                <DishesItem/> 
+            <ListRestaurant> 
                 <DishesItem/> 
             </ListRestaurant>    
             
