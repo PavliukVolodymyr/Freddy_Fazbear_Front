@@ -3,7 +3,7 @@ import '../../../styles/UI/SearchShort/SearchShortInput.css'
 
 const SearchShortInput = () =>{
     return (
-        <input class="what-would-you-like-to-eat" type="search" placeholder="What would you like to eat?"></input>
+        <input class="what-would-you-like-to-eat1" type="search" placeholder="What would you like to eat?"></input>
     )
 }
 
