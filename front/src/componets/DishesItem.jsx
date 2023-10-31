@@ -9,6 +9,7 @@ const DishesItem = () =>{
         axios.get('http://127.0.0.1:8000/api/Dishes/1/')
             .then((response) =>{
                 setDishData(response.data);
+
             })
             .catch((error) => {
                 console.error('Помилка запиту до API', error);

@@ -11,6 +11,7 @@ import RestaurtantItem from "./componets/RestaurantItem";
 import './styles/ListRestaurant1.css'
 import Message from "./componets/Message";
 import Add from "./componets/Add";
+import AuthStatus from "./componets/AuthStatus";
 
 
 
@@ -19,6 +20,7 @@ function TopRated(){
         <div>
             <Background/>
             <Header/>
+            <AuthStatus/>
             <div style={{position: "absolute", top: '287px'}}>
                <Navigation/>
             </div>

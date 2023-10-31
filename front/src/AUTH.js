@@ -21,6 +21,7 @@ class AUTH extends Component {
       .then((response) => {
         if (response.data.message === 'success') {
           this.setState({ isAuthenticated: true });
+          localStorage.setItem('token', response.data.token)
         }
       })
       .catch((error) => {
