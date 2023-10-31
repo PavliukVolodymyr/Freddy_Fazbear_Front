@@ -1,9 +1,11 @@
 import React from "react";
 import '../styles/ProfileIcon.css';
+import { Link } from "react-router-dom";
 
 const ProfileIcon = () =>{
     return(
         <div className="ProfileIcon">
+          <Link to='/UserProfile'>
         <p className="UserBackground"></p>
           <svg
             className="user-interface-user2"
@@ -24,6 +26,7 @@ const ProfileIcon = () =>{
               fill="black"
             />
           </svg>
+          </Link>
         </div>
     )
 

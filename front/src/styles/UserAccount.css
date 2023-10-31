@@ -1,0 +1,198 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 470px;
+    top: 256px;
+  }
+  .frame-73 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .rectangle-18 {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%,
+      rgba(255, 255, 255, 0.5) 100%
+    );
+    border-radius: 30px;
+    flex-shrink: 0;
+    width: 979px;
+    height: 569px;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .user-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 26px;
+    top: 26px;
+  }
+  .user-interface-user3 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+  .user-name {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 91px;
+    top: 31px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .domushkin-oleksandr {
+    color: #000000;
+    text-align: left;
+    font: 400 36px "DM Sans", sans-serif;
+    position: relative;
+  }
+  .pen-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 460px;
+    top: 44px;
+  }
+  .user-interface-edit {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+  }
+  .login {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 35px;
+    top: 98px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .login2 {
+    color: #797575;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+  }
+  .oleksandr-diomushkin-gmail-com {
+    color: #000000;
+    text-align: left;
+    font: 400 32px "DM Sans", sans-serif;
+    position: relative;
+  }
+  .password {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 35px;
+    top: 178px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .password2 {
+    color: #797575;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+  }
+
+  .frame-68 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 0px;
+    top: 89px;
+  }
+  .rectangle-21 {
+    background: #797575;
+    flex-shrink: 0;
+    width: 979px;
+    height: 2px;
+    position: relative;
+  }
+  .logout {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%,
+      rgba(255, 255, 255, 0.5) 100%
+    );
+    border-radius: 30px;
+    padding: 5px 57px 5px 57px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 35px;
+    top: 484px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .logout2 {
+    color: #000000;
+    text-align: left;
+    font: 700 32px "DM Sans", sans-serif;
+    position: relative;
+  }
+  .password-recovery {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: absolute;
+    left: 717px;
+    top: 468px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .frame-69 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .password-recovery2 {
+    color: #797575;
+    text-align: left;
+    font: 400 14px "DM Sans", sans-serif;
+    position: relative;
+  }

@@ -5,7 +5,7 @@ import SearchShortInput from './componets/UI/SearchShort/SearchShortInput'
 import Header from "./componets/Header";
 import Navigation from "./componets/Navigation";
 import UserInterface from "./componets/UserInterface";
-import ProfileIcon from "./componets/ProfileIcon";
+
 import ListRestaurant1 from "./componets/ListRestaurant1";
 import RestaurtantItem from "./componets/RestaurantItem";
 import './styles/ListRestaurant1.css'
@@ -29,7 +29,6 @@ function TopRated(){
             <SearchIcon>
                 <SearchShortInput/>
             </SearchIcon>
-            <ProfileIcon/>
             <div style={{position:'absolute',top:'280px'}}>
                 <ListRestaurant1>
                     <RestaurtantItem/>

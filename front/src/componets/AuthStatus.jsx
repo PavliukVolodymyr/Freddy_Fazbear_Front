@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import ProfileIcon from './ProfileIcon'
+import AuthIcon from './AuthIcon';
 
 class AuthStatus extends Component {
   constructor() {
     super();
     this.state = {
       isAuthenticated: false,
+      token: localStorage.getItem('token'),
     };
   }
 
@@ -22,12 +25,12 @@ class AuthStatus extends Component {
     return isAuthenticated ? (
       // Відображайте вміст для авторизованого користувача
       <div>
-        <p>Ви авторизовані</p>
+        <ProfileIcon/>
       </div>
     ) : (
       // Відображайте вміст для неавторизованого користувача
       <div>
-        <p>Будь ласка, увійдіть</p>
+        <AuthIcon/>
       </div>
     );
   }

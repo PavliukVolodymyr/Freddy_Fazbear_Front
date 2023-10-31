@@ -3,6 +3,7 @@ import axios from 'axios';
 import Background from './componets/Background';
 import Header from './componets/Header';
 import './styles/Auth.css'
+import { Link } from 'react-router-dom';
 
 class AUTH extends Component {
   state = {
@@ -22,6 +23,7 @@ class AUTH extends Component {
         if (response.data.message === 'success') {
           this.setState({ isAuthenticated: true });
           localStorage.setItem('token', response.data.token)
+          <Link></Link>
         }
       })
       .catch((error) => {
@@ -40,25 +42,13 @@ class AUTH extends Component {
           </div>
         ) : (
           <div>
-            <input
-              type="text"
-              placeholder="Електронна пошта"
-              value={this.state.email}
-              onChange={(e) => this.setState({ email: e.target.value })}
-            />
-            <input
-              type="password"
-              placeholder="Пароль"
-              value={this.state.password}
-              onChange={(e) => this.setState({ password: e.target.value })}
-            />
-            <button onClick={this.handleLogin}>Увійти</button>
+           
             <Background/>
         <Header/>
 
 
         <div class="authorization">
-          <div class="rectangle-18"></div>
+          <div class="rectangle-18888"></div>
                 <div class="rectangle-19">
                     <input class="enter-your-login-or-email-address"
                      placeholder="Enter your login or email address"
@@ -67,7 +57,7 @@ class AUTH extends Component {
                      onChange={(e) => this.setState({ email: e.target.value })}
                      ></input>
                 </div>
-               <div class="rectangle-192"> 
+               <div class="inputPassword"> 
                 <input class="enter-your-password"
                  placeholder="Enter your password"
                  type="password"

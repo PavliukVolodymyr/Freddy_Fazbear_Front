@@ -5,6 +5,7 @@ import TopRated from './TopRated';
 import MainDishes from './MainDishes';
 import All from './All';
 import AUTH from './AUTH';
+import UserAccount from './UserAccount';
 
 
 
@@ -18,6 +19,7 @@ function App(){
                 <Route path='/MainDishes' element={<MainDishes/>}/>
                 <Route path='/All' element={<All/>}/>
                 <Route path='/Auth' element={<AUTH/>}/>
+                <Route path='/UserProfile' element={<UserAccount/>}/>
             </Routes>
         </Router>
     );
