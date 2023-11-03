@@ -5,11 +5,11 @@ import Header from "./componets/Header";
 import SearchIcon from "./componets/UI/SearchLong/SearchIcon";
 import './styles/UI/SearchLong/SearchLongInput.css';
 import SearchLongInput from "./componets/UI/SearchLong/SearchLongInput";
-import ProfileIcon from "./componets/ProfileIcon";
 import Message from "./componets/Message";
 import ListRestaurant from "./componets/ListRetaurant";
 import RestaurtantItem from "./componets/RestaurantItem";
 import Navigation from "./componets/Navigation";
+import AuthStatus from "./componets/AuthStatus";
 
 
 function AllRestaurants() {
@@ -21,7 +21,7 @@ function AllRestaurants() {
     <SearchIcon>
     <SearchLongInput/>
     </SearchIcon>
-    <ProfileIcon/>
+    <AuthStatus/>
     <Navigation/>
     <Message>
       Де Смачніше?

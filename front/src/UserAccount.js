@@ -1,7 +1,7 @@
 import React from "react";
 import Background from "./componets/Background";
 import Header from "./componets/Header";
-import ProfileIcon from "./componets/ProfileIcon";
+import AuthStatus from "./componets/AuthStatus.jsx"
 import UserInterface from "./componets/UserInterface";
 import './styles/UserAccount.css';
 
@@ -16,7 +16,7 @@ const UserAccount = () => {
             <Background/>
             <Header/>
             <UserInterface/>
-            <ProfileIcon/>
+            <AuthStatus/>
             <div class="main">
           <div class="frame-73">
             <div class="rectangle-18"></div>

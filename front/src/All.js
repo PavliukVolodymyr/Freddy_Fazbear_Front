@@ -8,14 +8,15 @@ import UserInterface from "./componets/UserInterface";
 import ListRestaurant from "./componets/ListRetaurant";
 import DishesItem from "./componets/DishesItem";
 import RestaurtantItem from "./componets/RestaurantItem";
-import ProfileIcon from "./componets/ProfileIcon";
 import Message from "./componets/Message";
+import AuthStatus from "./componets/AuthStatus";
 
 function All (){
     return(
         <div>
             <Background/>
             <Header/>
+            <AuthStatus/>
             <Navigation/>
             <SearchIcon>
                 <SearchLongInput/>
@@ -32,7 +33,6 @@ function All (){
                 <RestaurtantItem/>
                 <DishesItem/>
             </ListRestaurant>
-            <ProfileIcon/>
             <Message>
                 Обирай з розумом або животом!
             </Message>

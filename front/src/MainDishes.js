@@ -5,17 +5,17 @@ import SearchLongInput from "./componets/UI/SearchLong/SearchLongInput";
 import Navigation from "./componets/Navigation";
 import UserInterface from "./componets/UserInterface";
 import Header from "./componets/Header";
-import ProfileIcon from "./componets/ProfileIcon";
 import ListRestaurant from "./componets/ListRetaurant";
 import DishesItem from "./componets/DishesItem";
 import Message from "./componets/Message";
+import AuthStatus from "./componets/AuthStatus";
 
 function MainDishes(){
     return(
         <div>
             <Background/>
             <Header/>
-            <ProfileIcon/>
+            <AuthStatus/>
             <SearchIcon>
                 <SearchLongInput/>
             </SearchIcon>

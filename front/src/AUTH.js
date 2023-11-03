@@ -3,7 +3,7 @@ import axios from 'axios';
 import Background from './componets/Background';
 import Header from './componets/Header';
 import './styles/Auth.css'
-import { Link } from 'react-router-dom';
+
 
 class AUTH extends Component {
   state = {
@@ -23,7 +23,7 @@ class AUTH extends Component {
         if (response.data.message === 'success') {
           this.setState({ isAuthenticated: true });
           localStorage.setItem('token', response.data.token)
-          <Link></Link>
+
         }
       })
       .catch((error) => {
