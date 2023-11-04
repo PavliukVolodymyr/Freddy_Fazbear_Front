@@ -1,12 +1,13 @@
 .listItem {
     width: 90%;
     text-align: center;
+    
 }
 .MainRestourantsImg {
     background: linear-gradient(to left, #d9d9d9, #d9d9d9);
     border-radius: 20px;
-    width: 100%;
-    height:auto;
+    width: 246px;
+    height:144px;
     margin-top: 10px;
 }
 .NameRestourants {

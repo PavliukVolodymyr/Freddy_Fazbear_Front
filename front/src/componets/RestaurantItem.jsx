@@ -1,12 +1,12 @@
 import React from "react";
 import '../styles/RestaurantItem.css';
-import myImage from '../img/restaurant.png'
 
-const RestaurtantItem = () =>{
-    return(
+
+const RestaurtantItem = ({data}) =>{
+  return(
         <div className="listItem">
-            <img className="MainRestourantsImg" alt="none" src={myImage} />
-            <div className="NameRestourants">Chicken Hut</div>
+            <img className="MainRestourantsImg" alt="none" src={data.photo} />
+            <div className="NameRestourants">{data.name}</div>
             <svg
               className="RatingIcon"
               width="24"
@@ -21,8 +21,8 @@ const RestaurtantItem = () =>{
                 stroke="black"
               />
             </svg>
-            <div className="Rating">100%</div>
-            <div className="TypeRestaurants">Fast-Food</div>
+            <div className="Rating">{data.rating}%</div>
+            <div className="TypeRestaurants">{data.type}</div>
           </div>
     )
 }

@@ -12,6 +12,9 @@ class AUTH extends Component {
     isAuthenticated: false,
   };
   
+  linkTopRated = () => {
+    window.location.href = "/"
+  }
 
   handleLogin = () => {
     const { email, password } = this.state;
@@ -20,16 +23,19 @@ class AUTH extends Component {
     axios
       .post('http://127.0.0.1:8000/api/auth/', { email, password })
       .then((response) => {
+        console.log(response.data.message);
         if (response.data.message === 'success') {
           this.setState({ isAuthenticated: true });
           localStorage.setItem('token', response.data.token)
-
+          window.location.href = "/";
         }
       })
       .catch((error) => {
         console.error('Помилка авторизації:', error);
+        
       });
   };
+
 
   render() {
     const { isAuthenticated } = this.state;
@@ -38,7 +44,7 @@ class AUTH extends Component {
       <div>
         {isAuthenticated ? (
           <div>
-
+            
           </div>
         ) : (
           <div>

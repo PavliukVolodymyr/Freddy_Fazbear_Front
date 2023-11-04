@@ -2,13 +2,13 @@
 import React from "react";
 import DishesItem from "./DishesItem";
 import RestaurantItem from "./RestaurantItem";
-import "../styles/ListRestaurant1.css";
+import "../styles/ListRestaurants.css";
 
-const ListRestaurant1 = ({ items, isDish }) => {
+const ListRestaurant = ({ items, isDish }) => {
   const chunkedItems = chunkArray(items,1);
 
   return (
-    <div className="listRestourant1">
+    <div className="listRestourants">
       {chunkedItems.map((row, rowIndex) => (
         <div key={rowIndex} className="row">
           {row.map((item, index) => (
@@ -31,4 +31,4 @@ function chunkArray(arr, chunkSize) {
   return chunks;
 }
 
-export default ListRestaurant1;
+export default ListRestaurant;

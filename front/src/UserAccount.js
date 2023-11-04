@@ -4,10 +4,12 @@ import Header from "./componets/Header";
 import AuthStatus from "./componets/AuthStatus.jsx"
 import UserInterface from "./componets/UserInterface";
 import './styles/UserAccount.css';
+import { Link } from "react-router-dom";
 
 const UserAccount = () => {
     const handleLogout = () => {
         localStorage.removeItem('token');
+        <Link to='/'></Link>
     }
 
 
@@ -105,9 +107,9 @@ const UserAccount = () => {
           <div class="frame-68">
             <div class="rectangle-21"></div>
           </div>
-          <div class="logout">
-            <button class="logout2" onClick={handleLogout}>Logout</button>
-          </div>
+          <Link to = "/">
+            <button class="logout" onClick={handleLogout}>Logout</button>
+          </Link>
         </div>
         <div class="password-recovery">
           <div class="frame-69">
