@@ -6,8 +6,7 @@ import MainDishes from './MainDishes';
 import All from './All';
 import AUTH from './AUTH';
 import UserAccount from './UserAccount';
-
-
+import Contact from './Contact';
 
 function App(){
     return(
@@ -20,6 +19,7 @@ function App(){
                 <Route path='/All' element={<All/>}/>
                 <Route path='/Auth' element={<AUTH/>}/>
                 <Route path='/UserProfile' element={<UserAccount/>}/>
+                <Route path='/Contact' element={<Contact/>}/>
             </Routes>
         </Router>
     );

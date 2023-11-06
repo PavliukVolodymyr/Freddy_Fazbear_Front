@@ -1,4 +1,3 @@
-// MainDishes.js
 import React, { useState, useEffect } from "react";
 import Background from "./componets/Background";
 import SearchIcon from "./componets/UI/SearchLong/SearchIcon";
@@ -15,6 +14,7 @@ import axios from "axios";
 function MainDishes() {
   const [dishesData, setDishesData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [searchText, setSearchText] = useState(''); // Стан для збереження тексту пошуку
 
   useEffect(() => {
     axios
@@ -29,13 +29,18 @@ function MainDishes() {
       });
   }, []);
 
+  // Функція для оновлення тексту пошуку
+  const handleSearch = (text) => {
+    setSearchText(text);
+  };
+
   return (
     <div>
       <Background />
       <Header />
       <AuthStatus />
       <SearchIcon>
-        <SearchLongInput />
+        <SearchLongInput className="what-would-you-like-to-eat" onSearch={handleSearch} />
       </SearchIcon>
       <Navigation />
       <UserInterface />
@@ -43,7 +48,7 @@ function MainDishes() {
       {loading ? (
         <div>Loading...</div>
       ) : (
-        <ListRestaurant items={dishesData} isDish={true} />
+        <ListRestaurant items={dishesData} isDish={true} searchText={searchText} />
       )}
     </div>
   );

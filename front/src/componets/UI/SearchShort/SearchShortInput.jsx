@@ -1,10 +1,25 @@
-import React from "react";
-import '../../../styles/UI/SearchShort/SearchShortInput.css'
+import React, { useState } from 'react';
 
-const SearchShortInput = () =>{
-    return (
-        <input class="what-would-you-like-to-eat1" type="search" placeholder="What would you like to eat?"></input>
-    )
+function SearchShortInput({ onSearch }) {
+  const [searchText, setSearchText] = useState('');
+
+  const handleSearch = (e) => {
+    const text = e.target.value;
+    setSearchText(text);
+    onSearch(text); // Оновлення стану searchText у вищестоящому компоненті
+  };
+
+  return (
+
+      <input
+      className='what-would-you-like-to-eat1'
+        type="text"
+        placeholder="What would you like to eat?"
+        value={searchText}
+        onChange={handleSearch}
+      />
+
+  );
 }
 
 export default SearchShortInput;

@@ -14,7 +14,7 @@ import axios from "axios";
 function AllRestaurants() {
   const [restaurantsData, setRestaurantsData] = useState([]);
   const [loading, setLoading] = useState(true);
-
+  const [searchText, setSearchText] = useState('');
   useEffect(() => {
     axios
       .get("http://127.0.0.1:8000/api/Restaurants/")
@@ -28,13 +28,17 @@ function AllRestaurants() {
       });
   }, []);
 
+  const handleSearch = (text) => {
+    setSearchText(text);
+  };
+
   return (
     <div>
     <Header/>
     <Background/>
     <UserInterface/>
     <SearchIcon>
-    <SearchLongInput/>
+    <SearchLongInput className="what-would-you-like-to-eat" onSearch={handleSearch} />
     </SearchIcon>
     <AuthStatus/>
     <Navigation/>
@@ -44,7 +48,7 @@ function AllRestaurants() {
     {loading ? (
         <div>Loading...</div>
       ) : (
-        <ListRestaurant items={restaurantsData} isDish={false} />
+        <ListRestaurant items={restaurantsData} isDish={false} searchText={searchText} />
       )}
     </div>
     

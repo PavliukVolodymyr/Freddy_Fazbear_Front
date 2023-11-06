@@ -30,7 +30,7 @@
     width: 979px;
     height: 569px;
     position: relative;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
   }
   .user-icon {
     display: flex;
@@ -58,7 +58,7 @@
     position: absolute;
     left: 91px;
     top: 31px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
   }
   .domushkin-oleksandr {
     color: #000000;
@@ -92,7 +92,7 @@
     position: absolute;
     left: 35px;
     top: 98px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
   }
   .login2 {
     color: #797575;
@@ -116,7 +116,7 @@
     position: absolute;
     left: 35px;
     top: 178px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
   }
   .password2 {
     color: #797575;
@@ -161,15 +161,13 @@
     position: absolute;
     left: 35px;
     top: 484px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
     color: #000000;
     text-align: left;
     font: 700 32px "DM Sans", sans-serif;
     position: absolute;
   }
-  .logout2 {
-    
-  }
+
   .password-recovery {
     display: flex;
     flex-direction: row;
@@ -180,7 +178,7 @@
     position: absolute;
     left: 717px;
     top: 468px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
   }
   .frame-69 {
     display: flex;

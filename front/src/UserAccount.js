@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Background from "./componets/Background";
 import Header from "./componets/Header";
 import AuthStatus from "./componets/AuthStatus.jsx"
 import UserInterface from "./componets/UserInterface";
 import './styles/UserAccount.css';
 import { Link } from "react-router-dom";
+import Axios from "axios";
 
 const UserAccount = () => {
     const handleLogout = () => {
@@ -12,20 +13,58 @@ const UserAccount = () => {
         <Link to='/'></Link>
     }
 
+      const [userData, setUserData] = useState(null);
+
+  
+      useEffect(() => {
+          // Отримуємо токен з локального сховища
+          const token = localStorage.getItem('token');
+  
+          if (token) {
+              // Виконуємо запит до серверу, передаючи токен у заголовках
+              Axios.get('http://127.0.0.1:8000/api/Customers/1/', {
+                  headers: {
+                      Authorization: `Bearer ${token}`
+                  }
+              })
+              .then(response => {
+                console.log(response.data);
+                console.log(token);
+                const user = response.data;
+                setUserData(user);
+              })
+              .catch(error => {
+                  // Обробка помилок
+                  console.error(error);
+
+              });
+
+          }
+      }, []);
+
+    
+
 
     return(
         <div>
-            <Background/>
+          {userData ? (
+            <div>
+                <div> Email: {userData.email}</div>
+            </div>
+          ) : (
+            <div>Немає </div>
+          )}
+            {/* <Background/>
             <Header/>
             <UserInterface/>
             <AuthStatus/>
-            <div class="main">
-          <div class="frame-73">
-            <div class="rectangle-18"></div>
+            <div className="main">
+          <div className="frame-73">
+            <div className="rectangle-18"></div>
           </div>
-          <div class="user-icon">
+          <div className="user-icon">
             <svg
-              class="user-interface-user3"
+              className="user-interface-user3"
               width="56"
               height="56"
               viewBox="0 0 56 56"
@@ -33,8 +72,8 @@ const UserAccount = () => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M9.33301 44.3334C9.33301 37.8901 14.5564 32.6667 20.9997 32.6667H34.9997C41.443 32.6667 46.6663 37.8901 46.6663 44.3334C46.6663 48.1994 43.5323 51.3334 39.6663 51.3334H16.333C12.467 51.3334 9.33301 48.1994 9.33301 44.3334Z"
                 fill="black"
               />
@@ -44,12 +83,12 @@ const UserAccount = () => {
               />
             </svg>
           </div>
-          <div class="user-name">
-            <div class="domushkin-oleksandr">Domushkin Oleksandr</div>
+          <div className="user-name">
+            <div className="domushkin-oleksandr">{userData.username}</div>
           </div>
-          <div class="pen-icon">
+          <div className="pen-icon">
             <svg
-              class="user-interface-edit"
+              className="user-interface-edit"
               width="30"
               height="30"
               viewBox="0 0 30 30"
@@ -77,7 +116,7 @@ const UserAccount = () => {
                   y2="22.2578"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop offset="0.208085" stop-color="#D70000" />
+                  <stop offset="0.208085" stopColor="#D70000" />
                   <stop offset="0.684316" />
                 </linearGradient>
                 <linearGradient
@@ -88,35 +127,36 @@ const UserAccount = () => {
                   y2="22.2578"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop offset="0.208085" stop-color="#D70000" />
+                  <stop offset="0.208085" stopColor="#D70000" />
                   <stop offset="0.684316" />
                 </linearGradient>
               </defs>
             </svg>
           </div>
-          <div class="login">
-            <div class="login2">Login:</div>
-            <div class="oleksandr-diomushkin-gmail-com">
+          <div className="login">
+            <div className="login2">Login:</div>
+            <div className="oleksandr-diomushkin-gmail-com">
               oleksandr.diomushkin@gmail.com
             </div>
           </div>
-          <div class="password">
-            <div class="password2">Password:</div>
-            <div class="">************</div>
+          <div className="password">
+            <div className="password2">Password:</div>
+            <div className="">************</div>
           </div>
-          <div class="frame-68">
-            <div class="rectangle-21"></div>
+          <div className="frame-68">
+            <div className="rectangle-21"></div>
           </div>
           <Link to = "/">
-            <button class="logout" onClick={handleLogout}>Logout</button>
+            <button className="logout" onClick={handleLogout}>Logout</button>
           </Link>
         </div>
-        <div class="password-recovery">
-          <div class="frame-69">
-            <div class="password-recovery2">Password recovery</div>
+        <div className="password-recovery">
+          <div className="frame-69">
+            <div className="password-recovery2">Password recovery</div>
           </div>
-        </div>
-        </div>
+          </div>*/}
+        </div> 
+        
     )
 }
 

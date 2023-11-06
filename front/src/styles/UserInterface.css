@@ -28,6 +28,7 @@
     left: calc(50% - 15px);
     top: calc(50% - 124px);
     overflow: visible;
+    color: black;
   }
   .vector2 {
     position: absolute;

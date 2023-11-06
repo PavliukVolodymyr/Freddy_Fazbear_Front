@@ -1,10 +1,20 @@
 import React from "react";
-import '../../../styles/UI/SearchLong/SearchLongInput.css'
 
-const SearchLongInput = () =>{
-    return(
-        <input class="what-would-you-like-to-eat" type="search" placeholder="What would you like to eat?"></input>
-    )
+
+const SearchLongInput = ({ onSearch }) => {
+  const handleChange = (e) => {
+    const searchText = e.target.value;
+    onSearch(searchText); // Відправити текст пошуку до батьківського компонента
+  };
+
+  return (
+    <input
+      className="what-would-you-like-to-eat"
+      type="search"
+      placeholder="What would you like to eat?"
+      onChange={handleChange} // Викликати зміну тексту при введенні
+    />
+  );
 }
 
 export default SearchLongInput;
