@@ -12,8 +12,10 @@
 
 }
 .SearchIcon {
-  position: absolute;
-  left: 37px;
-  top: 27px;
+  flex-shrink: 0;
+    position: absolute;
+    left: 29px;
+    top: 22px;
+    overflow: visible;
 
 }
