@@ -58,13 +58,95 @@
     left: 518px;   
     top: 29px;
 }
+.Button{
+ position: relative;
+ width: 120px;
+ height: 60px;
+ display: inline;
+}
+.listCount{                 
+    background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #797575;
+  border-width: 1px;
+  width: 119px;
+  height: 61px;
+  position: absolute;
+ margin-top: 122px;
+ left: 80px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
-.listCount{
-    
 }
 
 .DeleteFromOrder{
- position: relative;
- margin-left: 239px;
- margin-top: 90px;
+position: absolute;
+margin-top: 142px;
+left: 35px;
+}
+
+.one{
+  color: #000000;
+  font: 700 32px "DM Sans", sans-serif;
+  position: absolute;
+  top: 8px;
+  left: 30px;
+}
+
+.galochka{
+    margin-left: 50px;
+}
+
+.RestaurantIMG{
+background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+border-radius: 20px;
+width: 246.54px;
+height: 118.67px;
+position: relative;
+left: 17px;
+top: 6px;
+}
+
+.RestaurantName{
+    color: #000000;
+    text-align: left;
+    font: 500 24px "DM Sans", sans-serif;
+    position: relative;
+    width: 144.6px;
+    height: 26.28px;
+    left: 19px;
+    top: 10px;
+}
+
+.Rating1{
+    color: #000000;
+    text-align: left;
+    font: 500 20px "DM Sans", sans-serif;
+    position: relative;
+    width: 54.09px;
+    height: 22.04px;
+    top: -15px;
+    left: 215px;
+}
+
+.RestaurantType1{
+color: #797575;
+text-align: left;
+font: 500 20px "DM Sans", sans-serif;
+position: relative;
+width: 100.91px;
+height: 22.04px;
+margin-left: auto;
+margin-right: auto;
+top: 0px;
+}
+
+.RatingIcon1{
+    position: absolute;
+    left: 188px;
+    top: 135px;
 }

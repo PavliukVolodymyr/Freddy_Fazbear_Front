@@ -15,6 +15,7 @@ const UserInterface = () =>{
         else if(window.location.pathname === '/Cart'){
             setTop(378);
         }
+        
     }, [])
 
 
@@ -25,7 +26,7 @@ return(
 
         <div className="rectangle-4" style={{top: top1 + 'px'}}></div>
 
-
+        <Link to={'/Cart'}>
         <svg className="user-interface-shopping-cart" width="29" height="29" viewBox="0 0 29 29" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path
@@ -35,6 +36,7 @@ return(
                 d="M13.2917 22.9583C13.2917 24.293 12.2097 25.375 10.875 25.375C9.54035 25.375 8.45837 24.293 8.45837 22.9583C8.45837 21.6236 9.54035 20.5417 10.875 20.5417C12.2097 20.5417 13.2917 21.6236 13.2917 22.9583ZM22.9584 22.9583C22.9584 24.293 21.8764 25.375 20.5417 25.375C19.207 25.375 18.125 24.293 18.125 22.9583C18.125 21.6236 19.207 20.5417 20.5417 20.5417C21.8764 20.5417 22.9584 21.6236 22.9584 22.9583Z"
                 fill="black" />
         </svg>
+        </Link>
         <Link to={'/'}>
         <svg className="vector" width="31" height="25" viewBox="0 0 31 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
