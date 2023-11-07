@@ -19,3 +19,86 @@
     text-align: left;
     font: 700 36px "DM Sans", sans-serif;
   }
+  @media (max-width: 1400px) {
+    .header {
+      flex-direction: column; /* Змінюємо напрямок відображення на вертикальний */
+      gap: 10px; /* Зменшуємо відстань між елементами */
+      left: 20px; /* Змінюємо положення заголовка */
+      top: 20px;
+    }
+  
+    .delivery1 {
+      font-size: 40px; /* Змінюємо розмір шрифту для заголовку "delivery1" */
+    }
+  
+    .kolomyia1 {
+      font-size: 38px; /* Змінюємо розмір шрифту для заголовку "kolomyia1" */
+    }
+  }
+    @media (max-width: 1200px) {
+    .header {
+      flex-direction: column; /* Змінюємо напрямок відображення на вертикальний */
+      gap: 10px; /* Зменшуємо відстань між елементами */
+      left: 20px; /* Змінюємо положення заголовка */
+      top: 20px;
+    }
+  
+    .delivery1 {
+      font-size: 36px; /* Змінюємо розмір шрифту для заголовку "delivery1" */
+    }
+  
+    .kolomyia1 {
+      font-size: 34px; /* Змінюємо розмір шрифту для заголовку "kolomyia1" */
+    }
+  }
+  @media (max-width: 992px) {
+    .header {
+      flex-direction: column; /* Змінюємо напрямок відображення на вертикальний */
+      gap: 10px; /* Зменшуємо відстань між елементами */
+      left: 20px; /* Змінюємо положення заголовка */
+      top: 20px;
+    }
+  
+    .delivery1 {
+      font-size: 30px; /* Змінюємо розмір шрифту для заголовку "delivery1" */
+    }
+  
+    .kolomyia1 {
+      font-size: 28px; /* Змінюємо розмір шрифту для заголовку "kolomyia1" */
+    }
+  }
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Змінюємо напрямок відображення на вертикальний */
+      gap: 10px; /* Зменшуємо відстань між елементами */
+      left: 20px; /* Змінюємо положення заголовка */
+      top: 20px;
+    }
+  
+    .delivery1 {
+      font-size: 24px; /* Змінюємо розмір шрифту для заголовку "delivery1" */
+    }
+  
+    .kolomyia1 {
+      font-size: 22px; /* Змінюємо розмір шрифту для заголовку "kolomyia1" */
+    }
+  }
+  @media (max-width: 576px) {
+    .header {
+      flex-direction: column; /* Змінюємо напрямок відображення на вертикальний */
+      gap: 10px; /* Зменшуємо відстань між елементами */
+      left: 20px; /* Змінюємо положення заголовка */
+      top: 20px;
+    }
+  
+    .delivery1 {
+      font-size: 24px; /* Змінюємо розмір шрифту для заголовку "delivery1" */
+    }
+  
+    .kolomyia1 {
+      font-size: 22px; /* Змінюємо розмір шрифту для заголовку "kolomyia1" */
+    }
+  }
+  
+  
+  

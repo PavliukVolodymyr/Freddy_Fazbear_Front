@@ -6,7 +6,7 @@
     left: 70px;
     top: 12px;
     outline: none;
-  width: 1480px;
+  width: 1450px;
   }
 
   a,button,input,select,h1,h2,h3,h4,h5,* {
@@ -16,4 +16,52 @@
     text-decoration: none;
     appearance: none;
     background: none;
+  }
+  @media (max-width: 1400px) {
+    .what-would-you-like-to-eat {
+      font-size: 40px;
+      left: 70px;
+      top: 14px;
+      width: 900px;
+    }
+  }
+  
+  /* Для екранів з максимальною шириною 1200px */
+  @media (max-width: 1200px) {
+    .what-would-you-like-to-eat {
+      font-size: 36px;
+      left: 70px;
+      top: 16px;
+      width: 700px;
+    }
+  }
+  
+  /* Для екранів з максимальною шириною 992px */
+  @media (max-width: 992px) {
+    .what-would-you-like-to-eat {
+      font-size: 28px;
+      left: 70px;
+      top: 18px;
+      width: 500px;
+    }
+  }
+  
+  /* Для екранів з максимальною шириною 768px */
+  @media (max-width: 768px) {
+    .what-would-you-like-to-eat {
+      font-size: 24px;
+      left: 70px;
+      top: 20px;
+      width: 400px;
+    }
+  }
+  
+  /* Для екранів з максимальною шириною 576px */
+  @media (max-width: 576px) {
+    .what-would-you-like-to-eat {
+      font-size: 20px;
+      left: 55px;
+      top: 22px;
+      width: 250px;
+    }
   }

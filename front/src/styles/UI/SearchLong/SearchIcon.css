@@ -13,6 +13,7 @@
     flex-shrink: 0;
     position: relative;
     overflow: visible;
+
   }
 
   .Icon {
@@ -21,4 +22,61 @@
     left: 29px;
     top: 22px;
     overflow: visible;
+  }
+  @media (max-width: 1400px) {
+    .searchIcon {
+      left: 310px; /* Змінюємо положення .searchIcon на екранах з максимальною шириною 1400px */
+      top: 107px;
+    }
+    .Icon{
+      width: 29px;
+      height: 31px;
+    }
+    .Background{
+      width: 1000px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .searchIcon {
+      left: 300px; /* Змінюємо положення .searchIcon на екранах з максимальною шириною 1200px */
+      top: 107px;
+    }
+    .Icon{
+      width: 27px;
+      height: 29px;
+    }
+ 
+  }
+  @media (max-width: 992px) {
+    .searchIcon {
+      left: 280px; /* Змінюємо положення .searchIcon на екранах з максимальною шириною 992px */
+      top: 107px;
+    }
+    .Icon{
+      width: 25px;
+      height: 27px;
+    }
+   
+  }
+  @media (max-width: 768px) {
+    .searchIcon {
+      left: 180px; /* Змінюємо положення .searchIcon на малих екранах */
+      top: 107px;
+    }
+    .Icon{
+      width: 23px;
+      height: 25px;
+    }
+   
+  }
+  @media (max-width: 576px) {
+    .searchIcon {
+      left: 180px; /* Змінюємо положення .searchIcon на екранах з максимальною шириною 576px */
+      top: 107px;
+    }
+    .Icon{
+      width: 21px;
+      height: 23px;
+    }
+    
   }

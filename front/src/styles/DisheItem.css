@@ -6,7 +6,7 @@
     margin-top: 10px;
 }
 .Price {
-    color: #000000;
+    color: hsl(0, 0%, 0%);
     text-align: right;
     font: 700 24px "DM Sans", sans-serif;
     position: relative;

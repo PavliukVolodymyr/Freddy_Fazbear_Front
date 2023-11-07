@@ -13,7 +13,7 @@ function SearchShortInput({ onSearch }) {
 
       <input
       className='what-would-you-like-to-eat1'
-        type="text"
+        type="search"
         placeholder="What would you like to eat?"
         value={searchText}
         onChange={handleSearch}
