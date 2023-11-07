@@ -24,6 +24,10 @@ const Navigation = () => {
       setLeft(353);
       setWidth(65);
     }
+    else if(window.location.pathname === '/Cart'){
+      setLeft(233);
+      setWidth(80);
+    }
   }, [])  
   
   
@@ -95,7 +99,7 @@ const Navigation = () => {
     
           <div className="all-restaurants2">All restaurants</div>
           </Link>
-        <div className="cart">
+        <Link to={'/Cart'} className="cart">
           <svg
             className="cart-icon"
             width="24"
@@ -117,7 +121,7 @@ const Navigation = () => {
           </svg>
     
           <div className="cart2">Cart</div>
-        </div>
+        </Link>
         <Link to = "/All" className="all">
           <svg
             className="all-icon"

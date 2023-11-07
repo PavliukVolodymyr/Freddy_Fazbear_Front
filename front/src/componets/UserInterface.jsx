@@ -12,6 +12,9 @@ const UserInterface = () =>{
         else if(window.location.pathname === '/Contact'){
             setTop(500);
         }
+        else if(window.location.pathname === '/Cart'){
+            setTop(378);
+        }
     }, [])
 
 

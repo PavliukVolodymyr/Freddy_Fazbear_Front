@@ -7,6 +7,7 @@ import All from './All';
 import AUTH from './AUTH';
 import UserAccount from './UserAccount';
 import Contact from './Contact';
+import Cart from './Cart';
 
 function App(){
     return(
@@ -20,6 +21,7 @@ function App(){
                 <Route path='/Auth' element={<AUTH/>}/>
                 <Route path='/UserProfile' element={<UserAccount/>}/>
                 <Route path='/Contact' element={<Contact/>}/>
+                <Route path='/Cart' element={<Cart/>}/>
             </Routes>
         </Router>
     );
