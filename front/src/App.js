@@ -9,6 +9,7 @@ import UserAccount from './UserAccount';
 import Contact from './Contact';
 import Cart from './Cart';
 import CartOrder from './CartOrder';
+import Registration from './Registration';
 
 function App(){
     return(
@@ -24,6 +25,7 @@ function App(){
                 <Route path='/Contact' element={<Contact/>}/>
                 <Route path='/Cart' element={<Cart/>}/>
                 <Route path='/CartOrder' element={<CartOrder/>}/>
+                <Route path='/Registration' element={<Registration/>}/>
             </Routes>
         </Router>
     );
