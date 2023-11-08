@@ -60,7 +60,7 @@ function TopRated() {
                 )}
             </div>
             <Message>
-                Час щось замовити!
+            It's time to order something!
             </Message>
             <Add />
         </div>

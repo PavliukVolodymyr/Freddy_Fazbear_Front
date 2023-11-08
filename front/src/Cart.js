@@ -21,7 +21,7 @@ const Cart = () => {
             </SearchIcon>
             <AuthStatus/>
             <Message>
-                Вже щось обрав?
+            Have you already chosen something?
             </Message>
             <ListOrders>
                 <OrdersItem/>

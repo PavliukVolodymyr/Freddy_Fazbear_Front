@@ -29,7 +29,7 @@ function All() {
       </SearchIcon>
       <UserInterface />
       <Message>
-        Обирай з розумом або животом!
+      Choose with your mind or your stomach!
       </Message>
       {/* Блок listRestourants також перенесений в ListAll.js */}
       <ListAll searchText={searchText} />

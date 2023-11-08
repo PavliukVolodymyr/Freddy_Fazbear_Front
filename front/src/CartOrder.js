@@ -23,7 +23,7 @@ const CartOrder = () => {
             </SearchIcon>
             <AuthStatus />
             <Message>
-                Не можу дочекатись!
+            I can't wait!
             </Message>
             <div className="OrderBackground">
                 <div className="new-order">New order</div>

@@ -43,7 +43,7 @@ function AllRestaurants() {
     <AuthStatus/>
     <Navigation/>
     <Message>
-      Де Смачніше?
+    Where is it tastier?
     </Message>
     {loading ? (
         <div>Loading...</div>

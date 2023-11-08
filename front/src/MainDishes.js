@@ -44,7 +44,7 @@ function MainDishes() {
       </SearchIcon>
       <Navigation />
       <UserInterface />
-      <Message>Ммммм виглядає смачно?</Message>
+      <Message>Mmmmm looks delicious!</Message>
       {loading ? (
         <div>Loading...</div>
       ) : (
