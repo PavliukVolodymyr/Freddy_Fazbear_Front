@@ -21,6 +21,7 @@
     text-align: left;
     font: 700 32px "DM Sans", sans-serif;
     position: relative;
+    margin-left: 40px;
 }
 
 .rectangle{
@@ -51,6 +52,8 @@
     left: 40px;
     top: 108px;
     background-color: whitesmoke;
+    border: 2px solid #797575; /* Товщина обводки і колір */
+    border-radius: 10px; /* Радіус закруглення кутів */
 }
 
 .group2{
@@ -75,6 +78,8 @@
     left: 40px;
     top: 178px;
     background-color: whitesmoke;
+    border: 2px solid #797575; /* Товщина обводки і колір */
+    border-radius: 10px; /* Радіус закруглення кутів */
 }
 .group3{
     width: 250px;
@@ -98,6 +103,8 @@
     left: 40px;
     top: 248px;
     background-color: whitesmoke;
+    border: 2px solid #797575; /* Товщина обводки і колір */
+    border-radius: 10px; /* Радіус закруглення кутів */
 }
 
 .group4{
@@ -121,6 +128,8 @@
     left: 40px;
     top: 319px;
     background-color: whitesmoke;
+    border: 2px solid #797575; /* Товщина обводки і колір */
+    border-radius: 10px; /* Радіус закруглення кутів */
 }
 
 .ConfirmOrderBut{
@@ -129,19 +138,19 @@
         rgba(255, 255, 255, 0.5) 0%,
         rgba(255, 255, 255, 0.5) 100%
       );
-      border-radius: 10px;
-      border-style: solid;
-      border-color: #797575;
-      border-width: 1px;
-      width: 119px;
-      height: 61px;
+      border: 2px solid #797575; /* Товщина обводки і колір */
+    border-radius: 30px; /* Радіус закруглення кутів */
+    text-align: center;
+      font: 700 30px "DM Sans", sans-serif;
+      width: 200px;
+      height: 40px;
       position: relative;
       left: 40px;
       top: 75px;
       box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       color: #000000;
-      text-align: center;
-      font: 700 32px "DM Sans", sans-serif;
+      
+     
 
 }
 
@@ -236,4 +245,68 @@
     position: relative;
     top: -270px;
     height: 400px;
+   }
+   .rectangle1{
+    background: #797575;
+    width: 480px;
+    height: 4px;
+    position: relative;
+    top: -300px;
+    left: 373px;
+   }
+   .Subtotal{
+    color: #797575;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+    top: -260px;
+    left: 373px;
+   }
+   .rectangle2{
+    background: #797575;
+    width: 480px;
+    height: 3px;
+    position: relative;
+    top: -250px;
+    left: 373px;
+   }
+   .DeliveryFee{
+    color: #797575;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+    top: -260px;
+    left: 373px;
+   }
+   .Total{
+    color: #797575;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+    top: -245px;
+    left: 373px;
+   }
+   .Price1{
+    color: #797575;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+    top: -365px;
+    left: 792px;
+   }
+   .Price2{
+    color: #797575;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+    top: -360px;
+    left: 792px;
+   }
+   .Price3{
+    color: #797575;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: relative;
+    top: -342px;
+    left: 792px;
    }

@@ -23,11 +23,12 @@ const CartOrder = () => {
             </SearchIcon>
             <AuthStatus />
             <Message>
-                Вже щось обрав?
+                Не можу дочекатись!
             </Message>
             <div className="OrderBackground">
                 <div className="new-order">New order</div>
                 <div className="rectangle"></div>
+                
                 <div className="group1">
                     <div className="PhoneNumber">
                         Phone number
@@ -146,11 +147,20 @@ const CartOrder = () => {
                             </svg>
 
                         </button>
-
+                        
                     </div>
+                    
+                </div>
 
                 </div>
-                </div>
+                <div className="Subtotal">Sub total</div>
+                <div className="rectangle1"></div>
+                <div className="DeliveryFee">Delivery Fee</div>
+                <div className="rectangle2"></div>
+                <div className="Total">Total</div>
+                <div className="Price1">117$</div>
+                <div className="Price2">9$</div>
+                <div className="Price3">126$</div>
             </div>
 
         </div>
