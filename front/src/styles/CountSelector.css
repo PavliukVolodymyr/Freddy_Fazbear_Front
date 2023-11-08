@@ -1,0 +1,37 @@
+/* QuantitySelector.css */
+
+.select-container {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.5) 0%,
+            rgba(255, 255, 255, 0.5) 100%);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #797575;
+    border-width: 1px;
+    width: 119px;
+    height: 41px;
+    position: relative;
+    left: 280px;
+    top: -50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+.select-label {
+    left: 40px;
+    position: relative;
+}
+
+.select-element {
+    color: #000000;
+    font: 700 32px "DM Sans", sans-serif;
+    position: relative;
+    top: 0px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.galochka{
+   
+}

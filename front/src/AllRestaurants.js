@@ -15,6 +15,7 @@ function AllRestaurants() {
   const [restaurantsData, setRestaurantsData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchText, setSearchText] = useState('');
+
   useEffect(() => {
     axios
       .get("http://127.0.0.1:8000/api/Restaurants/")
