@@ -1,0 +1,55 @@
+.ellipse-99 {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.51) 0%,
+      rgba(217, 217, 217, 0.5) 100%
+    );
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    position: relative;
+    left: 1450px;
+    top: 160px;
+    color: #000000;
+    text-align: left;
+    font: 400 30px "Calibri", sans-serif;
+    position: relative;
+    text-align: center;
+ 
+    
+  }
+  .go-to-cart-button-anauth {
+    width: 261px;
+    height: 60px;
+    position: relative;
+    top: 110px;
+    left: 1500px;
+  }
+  .group-30123 {
+    position: absolute;
+    inset: 0;
+    
+  }
+  .rectangle-23123 {
+    background: #ff5c28;
+    border-radius: 27px;
+    width: 203px;
+    height: 60px;
+    position: absolute;
+    left: 58px;
+    top: 0px;
+  }
+  .go-to-cart123 {
+    color: #ffffff;
+    text-align: left;
+    font: 400 36px "DM Sans", sans-serif;
+    position: absolute;
+    left: 75px;
+    top: 4px;
+  }
+  .user-interface-shopping-cart123 {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    overflow: visible;
+  }
