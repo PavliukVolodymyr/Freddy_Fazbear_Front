@@ -5,7 +5,7 @@ const OrdersItem = () => {
   return (
     <div className="container">
       <div className="DishOrder">
-        <img className="DishImg" ></img>
+        <img className="DishImg" alt="none"></img>
         <div className="DishName">Burger Mozza XL</div>
         <div className="DishPrice">39$</div>
         <div className="Button">
@@ -35,7 +35,7 @@ const OrdersItem = () => {
         
       </div>
       <div className="RestaurantOrder">
-        <img className="RestaurantIMG"/>
+        <img className="RestaurantIMG" alt="none"/>
         <div className="RestaurantName">Chicke Hut</div>
         <div className="Rating1">100%</div>
         <svg

@@ -28,6 +28,10 @@ const Navigation = () => {
       setLeft(233);
       setWidth(80);
     }
+    else if(window.location.pathname === '/CartOrder'){
+      setLeft(233);
+      setWidth(80);
+    }
   }, [])  
   
   

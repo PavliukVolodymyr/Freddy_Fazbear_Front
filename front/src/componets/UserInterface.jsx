@@ -15,6 +15,9 @@ const UserInterface = () =>{
         else if(window.location.pathname === '/Cart'){
             setTop(378);
         }
+        else if (window.location.pathname === '/CartOrder'){
+            setTop(378);
+        }
         
     }, [])
 

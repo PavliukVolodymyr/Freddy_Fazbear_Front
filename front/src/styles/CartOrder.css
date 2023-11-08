@@ -1,0 +1,239 @@
+.OrderBackground{
+    background: linear-gradient(
+        180deg,
+        rgba(243, 243, 243, 0.5) 0%,
+        rgba(243, 243, 243, 0.5) 10.9375%,
+        rgba(243, 243, 243, 0.86) 100%,
+        rgba(243, 243, 243, 0.5) 100%,
+        rgba(243, 243, 243, 0.5) 100%
+      );
+      border-radius: 18px;
+      width: 902px;
+      height: 650px;
+      position: absolute;
+      left: 310px;
+      top: 270px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.new-order{
+    color: #000000;
+    text-align: left;
+    font: 700 32px "DM Sans", sans-serif;
+    position: relative;
+}
+
+.rectangle{
+    background: #797575;
+    width: 902px;
+    height: 2px;
+    position: relative;
+}
+.group1{
+    width: 250px;
+    height: 64px;
+    position: static;
+}
+
+.PhoneNumber{
+    color: #363535;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 71px;
+}
+
+.PhoneNumberInput{
+    width: 250px;
+    height: 27px;
+    position: absolute;
+    left: 40px;
+    top: 108px;
+    background-color: whitesmoke;
+}
+
+.group2{
+    width: 250px;
+    height: 64px;
+    position: static;
+}
+
+.OrderName{
+    color: #363535;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 141px;
+}
+
+.InputOrderName{
+    width: 250px;
+    height: 27px;
+    position: absolute;
+    left: 40px;
+    top: 178px;
+    background-color: whitesmoke;
+}
+.group3{
+    width: 250px;
+    height: 64px;
+    position: static;
+}
+
+.DeliveryOrder{
+    color: #363535;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 211px;
+}
+
+.DeliveryInput{
+    width: 250px;
+    height: 27px;
+    position: absolute;
+    left: 40px;
+    top: 248px;
+    background-color: whitesmoke;
+}
+
+.group4{
+    width: 250px;
+    height: 80px;
+    position: static;
+}
+
+.PlaceOrder{
+    color: #363535;
+    text-align: left;
+    font: 400 24px "DM Sans", sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 281px;
+}
+.PlaceList{
+    width: 250px;
+    height: 42px;
+    position: absolute;
+    left: 40px;
+    top: 319px;
+    background-color: whitesmoke;
+}
+
+.ConfirmOrderBut{
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0.5) 100%
+      );
+      border-radius: 10px;
+      border-style: solid;
+      border-color: #797575;
+      border-width: 1px;
+      width: 119px;
+      height: 61px;
+      position: relative;
+      left: 40px;
+      top: 75px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      color: #000000;
+      text-align: center;
+      font: 700 32px "DM Sans", sans-serif;
+
+}
+
+.DishCreateOrder{
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0) 100%,
+        rgba(255, 255, 255, 0.5) 100%
+      );
+      border-radius: 30px;
+      width: 507px;
+      height: 174px;
+      position: relative;
+      left: 359px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      margin-bottom: 30px;
+}
+
+.DishImgOrder{
+    background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+    border-radius: 10px;
+    width: 124px;
+    height: 123px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 31px;
+}
+
+.DishNameOrder{
+    color: #000000;
+    font: 700 32px "DM Sans", sans-serif;
+    position: absolute; 
+    left: 171px;   
+    top: 29px;
+}
+
+.DishPriceOrder{
+    color: #000000;
+    font: 700 32px "DM Sans", sans-serif;
+    position: absolute; 
+    left: 440px;   
+    top: 29px;
+}
+
+.ButtonOrder{
+    position: relative;
+    width: 120px;
+    height: 60px;
+    display: inline;
+   }
+   .listCountOrder{                 
+       background: linear-gradient(
+       180deg,
+       rgba(255, 255, 255, 0.5) 0%,
+       rgba(255, 255, 255, 0.5) 100%
+     );
+     border-radius: 10px;
+     border-style: solid;
+     border-color: #797575;
+     border-width: 1px;
+     width: 119px;
+     height: 61px;
+     position: absolute;
+    margin-top: 102px;
+    left: 80px;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   
+   }
+   
+   .DeleteFromCreateOrder{
+   position: absolute;
+   margin-top: 122px;
+   left: 35px;
+   }
+   
+   .oneOrder{
+     color: #000000;
+     font: 700 32px "DM Sans", sans-serif;
+     position: absolute;
+     top: 8px;
+     left: 30px;
+   }
+   
+   .galochkaOrder{
+       margin-left: 50px;
+   }
+
+   .ListCreateOrder{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    top: -270px;
+    height: 400px;
+   }
