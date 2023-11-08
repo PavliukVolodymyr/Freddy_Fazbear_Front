@@ -1,60 +1,59 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
+import Axios from "axios";
+import { Link } from "react-router-dom";
 import Background from "./componets/Background";
 import Header from "./componets/Header";
 import AuthStatus from "./componets/AuthStatus.jsx"
 import UserInterface from "./componets/UserInterface";
 import './styles/UserAccount.css';
-import { Link } from "react-router-dom";
-import Axios from "axios";
 
 const UserAccount = () => {
-    const handleLogout = () => {
-        localStorage.removeItem('token');
-        <Link to='/'></Link>
+  const [userData, setUserData] = useState(null);
+  const [user_id, setUserId] = useState(null);
+  const [token, setToken] = useState(localStorage.getItem('token'));
+
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    <Link to='/'></Link>
+}
+  
+  useEffect(() => {
+    if (token) {
+      // Отримайте userId зі свого API-маршруту
+      Axios.post('http://127.0.0.1:8000/check_token/', {token})
+        .then(response => {
+          const data = response.data;
+          setUserId(data.user_id);
+          console.log(data);
+          console.log(token);
+        })
+        .catch(error => {
+          console.error(error);
+        });
     }
+  }, [token]);
 
-      const [userData, setUserData] = useState(null);
+  useEffect(() => {
+    if (user_id) {
+      // Використовуйте userId для отримання даних користувача
+      Axios.get(`http://127.0.0.1:8000/api/Customers/${user_id}/`, {
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
+      })
+        .then(response => {
+          const user = response.data;
+          setUserData(user);
+        })
+        .catch(error => {
+          console.error(error);
+        });
+    }
+  }, [user_id, token]);
 
-  
-      useEffect(() => {
-          // Отримуємо токен з локального сховища
-          const token = localStorage.getItem('token');
-  
-          if (token) {
-              // Виконуємо запит до серверу, передаючи токен у заголовках
-              Axios.get('http://127.0.0.1:8000/api/Customers/1/', {
-                  headers: {
-                      Authorization: `Bearer ${token}`
-                  }
-              })
-              .then(response => {
-                console.log(response.data);
-                console.log(token);
-                const user = response.data;
-                setUserData(user);
-              })
-              .catch(error => {
-                  // Обробка помилок
-                  console.error(error);
-
-              });
-
-          }
-      }, []);
-
-    
-
-
-    return(
-        <div>
-          {userData ? (
-            <div>
-                <div> Email: {userData.email}</div>
-            </div>
-          ) : (
-            <div>Немає </div>
-          )}
-            {/* <Background/>
+  return (
+    <div>
+            <Background/>
             <Header/>
             <UserInterface/>
             <AuthStatus/>
@@ -84,7 +83,7 @@ const UserAccount = () => {
             </svg>
           </div>
           <div className="user-name">
-            <div className="domushkin-oleksandr">{userData.username}</div>
+            <div className="domushkin-oleksandr">{userData.first_name} {userData.last_name}</div>
           </div>
           <div className="pen-icon">
             <svg
@@ -136,7 +135,7 @@ const UserAccount = () => {
           <div className="login">
             <div className="login2">Login:</div>
             <div className="oleksandr-diomushkin-gmail-com">
-              oleksandr.diomushkin@gmail.com
+              {userData.email}
             </div>
           </div>
           <div className="password">
@@ -144,7 +143,7 @@ const UserAccount = () => {
             <div className="">************</div>
           </div>
           <div className="frame-68">
-            <div className="rectangle-21"></div>
+            <div className="rectangle-2134"></div>
           </div>
           <Link to = "/">
             <button className="logout" onClick={handleLogout}>Logout</button>
@@ -154,10 +153,9 @@ const UserAccount = () => {
           <div className="frame-69">
             <div className="password-recovery2">Password recovery</div>
           </div>
-          </div>*/}
+          </div>
         </div> 
-        
-    )
+  );
 }
 
 export default UserAccount;
