@@ -26,16 +26,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.EnterYourFirstName{
-    color: #797575;
-    text-align: left;
-    font: 400 24px "DM Sans", sans-serif;
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    width: 363px;
-    height: 32px;
-}
+
 
 .rectangleLast{
     background: #ffffff;
@@ -48,16 +39,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.EnterYourLastName{
-    color: #797575;
-    text-align: left;
-    font: 400 24px "DM Sans", sans-serif;
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    width: 236px;
-    height: 31px;
-}
+
 
 .rectangleEmail{
     background: #ffffff;
@@ -70,16 +52,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.EnterYourEmailAddress{
-    color: #797575;
-    text-align: left;
-    font: 400 24px "DM Sans", sans-serif;
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    width: 363px;
-    height: 32px;
-}
+
 
 .rectanglePassword{
     background: #ffffff;
@@ -92,16 +65,6 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.EnterYourPassword{
-    color: #797575;
-    text-align: left;
-    font: 400 24px "DM Sans", sans-serif;
-    position: absolute;
-    left: 26px;
-    top: 7px;
-    width: 236px;
-    height: 31px;
-}
 
 .rectanglePassword2{
     background: #ffffff;
@@ -119,10 +82,13 @@
     text-align: left;
     font: 400 24px "DM Sans", sans-serif;
     position: absolute;
-    left: 26px;
-    top: 7px;
-    width: 270px;
-    height: 31px;
+    border-radius: 30px;
+    left: 0px;
+    top: 0px;
+    width: 426px;
+    height: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .continue1{

@@ -9,28 +9,28 @@ const Registration = () =>{
             <Background/>
              <div class="authorization">
                 <div class="rectangleFirst">
-                    <input class="EnterYourFirstName"
+                    <input class="Re-EnterYourPassword"
                      placeholder="Enter your first name"
                      type="text"
                      
                      ></input>
                 </div>
                 <div class="rectangleLast">
-                    <input class="EnterYourLastName"
+                    <input class="Re-EnterYourPassword"
                      placeholder="Enter your last name"
                      type="text"
                      
                      ></input>
                 </div>
                 <div class="rectangleEmail">
-                    <input class="EnterYourEmailAddress"
+                    <input class="Re-EnterYourPassword"
                      placeholder="Enter your email address"
                      type="text"
                      
                      ></input>
                 </div>
                 <div class="rectanglePassword">
-                    <input class="EnterYourPassword"
+                    <input class="Re-EnterYourPassword"
                      placeholder="Enter your password"
                      type="password"
                      
