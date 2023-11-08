@@ -11,6 +11,7 @@ const UserAccount = () => {
   const [userData, setUserData] = useState(null);
   const [user_id, setUserId] = useState(localStorage.getItem('user_id'));
   const [token, setToken] = useState(localStorage.getItem('token'));
+  console.log(user_id);
 
 
   const handleLogout = () => {
@@ -47,6 +48,7 @@ const UserAccount = () => {
         .then(response => {
           console.log(response.data);
           const user = response.data;
+          console.log(user);
           setUserData(user);
         })
         .catch(error => {
