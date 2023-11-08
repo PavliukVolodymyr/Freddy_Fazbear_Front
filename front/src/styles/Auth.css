@@ -137,3 +137,11 @@
     height: 79px;
     border-radius: 30px;
   }
+  .forgot-your-password{
+    color: #797575;
+    text-align: left;
+    font: 400 16px "DM Sans", sans-serif;
+    position: relative;
+    left: 251px;
+    top: 216px;
+  }
