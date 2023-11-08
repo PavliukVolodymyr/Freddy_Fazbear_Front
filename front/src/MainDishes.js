@@ -20,6 +20,7 @@ function MainDishes() {
     axios
       .get("http://127.0.0.1:8000/api/Dishes/")
       .then((response) => {
+        console.log(response.data);
         setDishesData(response.data);
         setLoading(false);
       })
@@ -28,6 +29,8 @@ function MainDishes() {
         setLoading(false);
       });
   }, []);
+
+
 
   // Функція для оновлення тексту пошуку
   const handleSearch = (text) => {

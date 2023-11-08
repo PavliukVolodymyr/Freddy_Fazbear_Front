@@ -45,6 +45,7 @@ const UserAccount = () => {
         }
       })
         .then(response => {
+          console.log(response.data);
           const user = response.data;
           setUserData(user);
         })
