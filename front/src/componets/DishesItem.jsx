@@ -41,9 +41,11 @@ const DishesItem = ({ data }) => {
       <div className="Price">${data.cost}</div>
       <div className="NameDish">{data.name}</div>
       <div className="restaurantName">{ResData.name}</div>
-      <button onClick={addToCart} className="group-29">
-        <div className="rectangle-24"></div>
-        <div className="add">Add</div>
+      <button onClick={addToCart} className="group-2921">
+        <div className="rectangle-24222">
+          <div className="add21">Add</div>
+        </div>
+        
       </button>
     </div>
   );
