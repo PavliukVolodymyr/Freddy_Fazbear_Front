@@ -6,7 +6,6 @@ const DishesItem = ({ data }) => {
   const [ResData, setResData] = useState([]);
   const [ResId, setResId] = useState(data.restaurant);
   const userId = parseInt(localStorage.getItem('userId'), 10);
-  console.log(userId);
 
   const addToCart = () => {
     // Отримання ідентифікатора користувача та ідентифікатора страви і відправка запиту на бекенд
@@ -15,9 +14,9 @@ const DishesItem = ({ data }) => {
         customer_id: userId,
         dish_id: data.id,
       })
+
       .then((response) => {
-        // Додавання страви до кошика можливо також оновити стан на клієнті
-        // setSelectedDishes([...selectedDishes, data]);
+        window.location.reload();
       })
       .catch((error) => {
         console.error("Помилка запиту до API", error);
@@ -45,7 +44,7 @@ const DishesItem = ({ data }) => {
         <div className="rectangle-24222">
           <div className="add21">Add</div>
         </div>
-        
+
       </button>
     </div>
   );

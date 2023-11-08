@@ -15,6 +15,22 @@ function MainDishes() {
   const [dishesData, setDishesData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchText, setSearchText] = useState(''); // Стан для збереження тексту пошуку
+  const userId = parseInt(localStorage.getItem('userId'), 10);
+  const [cartItems, setCartItems] = useState([]);
+  const [totalQuantity, setTotalQuantity] = useState(0);
+
+  useEffect(() => {
+    axios.get(`http://127.0.0.1:8000/api/Customers/${userId}/`)
+      .then((response) => {
+        const userCart = response.data.cart;
+        setCartItems(userCart);
+        setTotalQuantity(userCart.length);
+        console.log("Кількість елементів у кошику:", totalQuantity);
+      })
+      .catch((error) => {
+        console.error("Помилка запиту до API", error);
+      });
+  }, [userId]);
 
   useEffect(() => {
     axios
@@ -53,7 +69,7 @@ function MainDishes() {
       ) : (
         <ListRestaurant items={dishesData} isDish={true} searchText={searchText} />
       )}
-      <div class="ellipse-99"><div>20</div></div>
+      <div class="ellipse-99"><div>{totalQuantity}</div></div>
       <div class="go-to-cart-button-anauth">
   <div class="group-30123">
     <div class="rectangle-23123"></div>

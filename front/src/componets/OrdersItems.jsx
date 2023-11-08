@@ -1,23 +1,92 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import '../styles/OrdersItems.css'
 import CountSelector from "./CountSelector";
+import axios from "axios";
 
-const OrdersItem = () => {
+const OrdersItem = ({dish}) => {
   const [selectedQuantity, setSelectedQuantity] = useState(1);
+  const [dishesData, setDishesData] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [restaurantsData, setRestaurantsData] = useState([]);
+  const userId = parseInt(localStorage.getItem('userId'), 10);
 
   const handleQuantityChange = (newQuantity) => {
     setSelectedQuantity(newQuantity);
+    updateQuantityOnServer(newQuantity);
+    localStorage.setItem(`quantity_${dish.id}`, newQuantity.toString());
   };
+  useEffect(() => {
+    axios
+      .get(`http://127.0.0.1:8000/api/Dishes/${dish}/`)
+      .then((response) => {
+        console.log(response.data);
+        setDishesData(response.data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Помилка запиту до API", error);
+        setLoading(false);
+      });
+  }, [dish]);
+
+
+
+
+
+  const updateQuantityOnServer = (newQuantity) => {
+    // Викликати ваш API для зміни кількості на сервері
+    const userId = localStorage.getItem("userId");
+    axios.post(`http://127.0.0.1:8000/change_count_in_cart/`, {
+      customer_id: userId,
+      dish_id: dish, 
+      quantity: newQuantity,
+    })
+      .then((response) => {
+        const storedQuantity = localStorage.getItem(`quantity_${dish.id}`);
+    console.log(localStorage.getItem(`quantity_${dish.id}`));
+    if (storedQuantity) {
+      setSelectedQuantity(storedQuantity);
+    }
+      })
+      .catch((error) => {
+        console.error("Помилка при зміні кількості в кошику", error);
+      });
+  };
+
+  const deleteItem = () => {
+    axios
+        .post(`http://127.0.0.1:8000/delete_cart_item/`,{
+            customer_id: userId,
+            dish_id: dish, 
+        })
+        window.location.reload();
+}
+
+
+  useEffect(() => {
+    axios
+      .get(`http://127.0.0.1:8000/api/Restaurants/${dishesData.restaurant}/`)
+      .then((response) => {
+        setRestaurantsData(response.data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Помилка запиту до API", error);
+        setLoading(false);
+      });
+  }, [dishesData.restaurant]);
+
+
 
   return (
     <div className="container">
       <div className="DishOrder">
-        <img className="DishImg" ></img>
-        <div className="DishName">Burger Mozza XL</div>
-        <div className="DishPrice">39$</div>
-        <div className="Button">
+        <img className="DishImg" alt="none" src={dishesData.photo}></img>
+        <div className="DishName">{dishesData.name}</div>
+        <div className="DishPrice">${dishesData.cost}</div>
+        <div className="Button" >
 
-         <button className="DeleteFromOrder"><svg
+         <button className="DeleteFromOrder" onClick={deleteItem} ><svg
           width="25"
           height="25"
           viewBox="0 0 25 25"
@@ -35,16 +104,17 @@ const OrdersItem = () => {
           <svg className="galochka" width="27" height="17" viewBox="0 0 27 17" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12.0736 16.4199L0.59503 5.22919C-0.198343 4.45571 -0.198343 3.20498 0.59503 2.43974L2.5025 0.580106C3.29587 -0.193369 4.57877 -0.193369 5.36371 0.580106L13.5 8.51234L21.6363 0.580106C22.4297 -0.193369 23.7126 -0.193369 24.4975 0.580106L26.405 2.43974C27.1983 3.21321 27.1983 4.46394 26.405 5.22919L14.9264 16.4199C14.1499 17.1934 12.867 17.1934 12.0736 16.4199Z" fill="#797575" />
           </svg> */}
-        <CountSelector className="listCount" initialValue={selectedQuantity} onQuantityChange={handleQuantityChange} />
+        <CountSelector className="listCount" initialValue={selectedQuantity} onQuantityChange={handleQuantityChange} dishId={dish} />
+
 
         
         </div>
         
       </div>
       <div className="RestaurantOrder">
-        <img className="RestaurantIMG" alt="none"/>
-        <div className="RestaurantName">Chicke Hut</div>
-        <div className="Rating1">100%</div>
+        <img className="RestaurantIMG" src={restaurantsData.photo} alt="none"/>
+        <div className="RestaurantName">{restaurantsData.name}</div>
+        <div className="Rating1">{restaurantsData.rating}%</div>
         <svg
               className="RatingIcon1"
               width="24"
@@ -59,7 +129,7 @@ const OrdersItem = () => {
                 stroke="black"
               />
             </svg>
-        <div className="RestaurantType1">Fast food</div>
+        <div className="RestaurantType1">{restaurantsData.type}</div>
       </div>
     </div>
   );

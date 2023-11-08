@@ -4,4 +4,6 @@
     position: absolute;
     left: 310px;
     top: 280px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
