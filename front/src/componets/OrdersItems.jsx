@@ -59,7 +59,9 @@ const OrdersItem = ({dish}) => {
             customer_id: userId,
             dish_id: dish, 
         })
+        localStorage.removeItem(`quantity_${dish}`);
         window.location.reload();
+        
 }
 
 
