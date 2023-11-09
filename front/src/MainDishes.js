@@ -10,6 +10,7 @@ import AuthStatus from "./componets/AuthStatus";
 import ListRestaurant from "./componets/ListRestaurant";
 import './styles/MainDishes.css';
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function MainDishes() {
   const [dishesData, setDishesData] = useState([]);
@@ -71,10 +72,10 @@ function MainDishes() {
       )}
       <div class="ellipse-99"><div>{totalQuantity}</div></div>
       <div class="go-to-cart-button-anauth">
-  <div class="group-30123">
+  <Link to={'/Cart'} class="group-30123">
     <div class="rectangle-23123"></div>
     <div class="go-to-cart123">Go to cart</div>
-  </div>
+  </Link>
   <svg
     class="user-interface-shopping-cart123"
     width="48"
